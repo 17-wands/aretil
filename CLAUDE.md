@@ -105,9 +105,10 @@ npm run build
 
 Python core: `pytest` and `ruff`.
 
-If a required command does not exist yet, implement it as part of the current
-issue or explain why it is unavailable. As of 2026-05-18 there is no
-`package.json` and no test suite, so these commands are not yet runnable.
+Run the npm commands from `app/`. If a required command does not exist yet,
+implement it as part of the current issue or explain why it is unavailable.
+`dev`, `test:e2e`, and `jobs:validate` are placeholder scripts until the web app
+(issue #13) and the data pipeline are built.
 
 ## Conventions
 

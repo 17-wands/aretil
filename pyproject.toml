@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aretil"
+version = "0.0.0"
+description = "aretil — legal experience-management data layer (Python data/ML core)"
+requires-python = ">=3.9"
+dependencies = [
+    "duckdb",
+    "splink",
+    "sentence-transformers",
+    "anthropic",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.setuptools]
+# The Python core is scripts plus tests, not an importable package.
+packages = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py39"
