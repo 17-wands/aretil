@@ -1,0 +1,1402 @@
+[
+  {
+    "matter_id": "M0001",
+    "name": "ADVANCED MICRO DEVICES INC \u2014 Merger (2020)",
+    "client_id": "C0002488",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 68160000000.0,
+    "year": 2020,
+    "firm_role": "Co-counsel",
+    "description": "ADVANCED MICRO DEVICES INC merger matter; sourced from SEC EDGAR form S-4 filed 2020-12-04.",
+    "attributes": {
+      "edgar_cik": 2488,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-20-309831",
+      "filing_date": "2020-12-04",
+      "filings_in_year": 3,
+      "sic_code": "3674"
+    }
+  },
+  {
+    "matter_id": "M0002",
+    "name": "ADVANCED MICRO DEVICES INC \u2014 Merger (2021)",
+    "client_id": "C0002488",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 21467000000.0,
+    "year": 2021,
+    "firm_role": "Lead counsel",
+    "description": "ADVANCED MICRO DEVICES INC merger matter; sourced from SEC EDGAR form S-4/A filed 2021-02-25.",
+    "attributes": {
+      "edgar_cik": 2488,
+      "edgar_form": "S-4/A",
+      "accession_number": "0001193125-21-055136",
+      "filing_date": "2021-02-25",
+      "filings_in_year": 6,
+      "sic_code": "3674"
+    }
+  },
+  {
+    "matter_id": "M0003",
+    "name": "BECTON DICKINSON & CO \u2014 Merger (2018)",
+    "client_id": "C0010795",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "NJ",
+    "deal_value": 154000000.0,
+    "year": 2018,
+    "firm_role": "Advisor",
+    "description": "BECTON DICKINSON & CO merger matter; sourced from SEC EDGAR form S-4 filed 2018-03-09.",
+    "attributes": {
+      "edgar_cik": 10795,
+      "edgar_form": "S-4",
+      "accession_number": "0001140361-18-012695",
+      "filing_date": "2018-03-09",
+      "filings_in_year": 1,
+      "sic_code": "3841"
+    }
+  },
+  {
+    "matter_id": "M0004",
+    "name": "BECTON DICKINSON & CO \u2014 Merger (2025)",
+    "client_id": "C0010795",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "NJ",
+    "deal_value": 4351000000.0,
+    "year": 2025,
+    "firm_role": "Advisor",
+    "description": "BECTON DICKINSON & CO merger matter; sourced from SEC EDGAR form 425 filed 2025-07-14.",
+    "attributes": {
+      "edgar_cik": 10795,
+      "edgar_form": "425",
+      "accession_number": "0001193125-25-158835",
+      "filing_date": "2025-07-14",
+      "filings_in_year": 7,
+      "sic_code": "3841"
+    }
+  },
+  {
+    "matter_id": "M0005",
+    "name": "BRISTOL MYERS SQUIBB CO \u2014 Merger (2019)",
+    "client_id": "C0014272",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 69000000.0,
+    "year": 2019,
+    "firm_role": "Advisor",
+    "description": "BRISTOL MYERS SQUIBB CO merger matter; sourced from SEC EDGAR form 425 filed 2019-11-15.",
+    "attributes": {
+      "edgar_cik": 14272,
+      "edgar_form": "425",
+      "accession_number": "0001140361-19-020721",
+      "filing_date": "2019-11-15",
+      "filings_in_year": 12,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0006",
+    "name": "BRISTOL MYERS SQUIBB CO \u2014 Merger (2020)",
+    "client_id": "C0014272",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 2059000000.0,
+    "year": 2020,
+    "firm_role": "Co-counsel",
+    "description": "BRISTOL MYERS SQUIBB CO merger matter; sourced from SEC EDGAR form S-4 filed 2020-05-20.",
+    "attributes": {
+      "edgar_cik": 14272,
+      "edgar_form": "S-4",
+      "accession_number": "0001140361-20-012071",
+      "filing_date": "2020-05-20",
+      "filings_in_year": 5,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0007",
+    "name": "BRISTOL MYERS SQUIBB CO \u2014 Tender offer (2022)",
+    "client_id": "C0014272",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 41447000000.0,
+    "year": 2022,
+    "firm_role": "Lead counsel",
+    "description": "BRISTOL MYERS SQUIBB CO tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2022-06-17.",
+    "attributes": {
+      "edgar_cik": 14272,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001140361-22-023484",
+      "filing_date": "2022-06-17",
+      "filings_in_year": 5,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0008",
+    "name": "BRISTOL MYERS SQUIBB CO \u2014 Tender offer (2024)",
+    "client_id": "C0014272",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 66559000000.0,
+    "year": 2024,
+    "firm_role": "Co-counsel",
+    "description": "BRISTOL MYERS SQUIBB CO tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2024-01-25.",
+    "attributes": {
+      "edgar_cik": 14272,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001140361-24-003759",
+      "filing_date": "2024-01-25",
+      "filings_in_year": 4,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0009",
+    "name": "BRISTOL MYERS SQUIBB CO \u2014 Tender offer (2025)",
+    "client_id": "C0014272",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 8658000000.0,
+    "year": 2025,
+    "firm_role": "Advisor",
+    "description": "BRISTOL MYERS SQUIBB CO tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2025-04-14.",
+    "attributes": {
+      "edgar_cik": 14272,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001140361-25-013626",
+      "filing_date": "2025-04-14",
+      "filings_in_year": 6,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0010",
+    "name": "HP INC \u2014 Merger (2019)",
+    "client_id": "C0047217",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 227000000.0,
+    "year": 2019,
+    "firm_role": "Lead counsel",
+    "description": "HP INC merger matter; sourced from SEC EDGAR form 425 filed 2019-12-09.",
+    "attributes": {
+      "edgar_cik": 47217,
+      "edgar_form": "425",
+      "accession_number": "0001193125-19-308744",
+      "filing_date": "2019-12-09",
+      "filings_in_year": 3,
+      "sic_code": "3570"
+    }
+  },
+  {
+    "matter_id": "M0011",
+    "name": "HP INC \u2014 Tender offer (2020)",
+    "client_id": "C0047217",
+    "practice_area": "Technology M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 5582000000.0,
+    "year": 2020,
+    "firm_role": "Lead counsel",
+    "description": "HP INC tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2020-03-02.",
+    "attributes": {
+      "edgar_cik": 47217,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-20-059078",
+      "filing_date": "2020-03-02",
+      "filings_in_year": 27,
+      "sic_code": "3570"
+    }
+  },
+  {
+    "matter_id": "M0012",
+    "name": "HP INC \u2014 Merger (2021)",
+    "client_id": "C0047217",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 4284000000.0,
+    "year": 2021,
+    "firm_role": "Advisor",
+    "description": "HP INC merger matter; sourced from SEC EDGAR form S-4 filed 2021-12-09.",
+    "attributes": {
+      "edgar_cik": 47217,
+      "edgar_form": "S-4",
+      "accession_number": "0001140361-21-041073",
+      "filing_date": "2021-12-09",
+      "filings_in_year": 1,
+      "sic_code": "3570"
+    }
+  },
+  {
+    "matter_id": "M0013",
+    "name": "ELI LILLY & Co \u2014 Tender offer (2022)",
+    "client_id": "C0059478",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "IN",
+    "deal_value": 13869000000.0,
+    "year": 2022,
+    "firm_role": "Co-counsel",
+    "description": "ELI LILLY & Co tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2022-10-31.",
+    "attributes": {
+      "edgar_cik": 59478,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-22-273104",
+      "filing_date": "2022-10-31",
+      "filings_in_year": 4,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0014",
+    "name": "ELI LILLY & Co \u2014 Tender offer (2023)",
+    "client_id": "C0059478",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "IN",
+    "deal_value": 49873000000.0,
+    "year": 2023,
+    "firm_role": "Co-counsel",
+    "description": "ELI LILLY & Co tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2023-10-13.",
+    "attributes": {
+      "edgar_cik": 59478,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-23-255631",
+      "filing_date": "2023-10-13",
+      "filings_in_year": 16,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0015",
+    "name": "ELI LILLY & Co \u2014 Tender offer (2024)",
+    "client_id": "C0059478",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "IN",
+    "deal_value": 5312000000.0,
+    "year": 2024,
+    "firm_role": "Lead counsel",
+    "description": "ELI LILLY & Co tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2024-07-19.",
+    "attributes": {
+      "edgar_cik": 59478,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-24-181268",
+      "filing_date": "2024-07-19",
+      "filings_in_year": 4,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0016",
+    "name": "ELI LILLY & Co \u2014 Tender offer (2025)",
+    "client_id": "C0059478",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "IN",
+    "deal_value": 2347000000.0,
+    "year": 2025,
+    "firm_role": "Advisor",
+    "description": "ELI LILLY & Co tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2025-11-07.",
+    "attributes": {
+      "edgar_cik": 59478,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-25-272330",
+      "filing_date": "2025-11-07",
+      "filings_in_year": 6,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0017",
+    "name": "S&P Global Inc. \u2014 Merger (2020)",
+    "client_id": "C0064040",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "NY",
+    "deal_value": 26216000000.0,
+    "year": 2020,
+    "firm_role": "Advisor",
+    "description": "S&P Global Inc. merger matter; sourced from SEC EDGAR form 425 filed 2020-12-17.",
+    "attributes": {
+      "edgar_cik": 64040,
+      "edgar_form": "425",
+      "accession_number": "0001193125-20-320109",
+      "filing_date": "2020-12-17",
+      "filings_in_year": 20,
+      "sic_code": "7320"
+    }
+  },
+  {
+    "matter_id": "M0018",
+    "name": "S&P Global Inc. \u2014 Merger (2021)",
+    "client_id": "C0064040",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "NY",
+    "deal_value": 1064000000.0,
+    "year": 2021,
+    "firm_role": "Co-counsel",
+    "description": "S&P Global Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2021-01-08.",
+    "attributes": {
+      "edgar_cik": 64040,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-21-005352",
+      "filing_date": "2021-01-08",
+      "filings_in_year": 13,
+      "sic_code": "7320"
+    }
+  },
+  {
+    "matter_id": "M0019",
+    "name": "S&P Global Inc. \u2014 Merger (2023)",
+    "client_id": "C0064040",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "NY",
+    "deal_value": 2303000000.0,
+    "year": 2023,
+    "firm_role": "Co-counsel",
+    "description": "S&P Global Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2023-01-13.",
+    "attributes": {
+      "edgar_cik": 64040,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-23-008498",
+      "filing_date": "2023-01-13",
+      "filings_in_year": 4,
+      "sic_code": "7320"
+    }
+  },
+  {
+    "matter_id": "M0020",
+    "name": "S&P Global Inc. \u2014 Merger (2024)",
+    "client_id": "C0064040",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "NY",
+    "deal_value": 57000000.0,
+    "year": 2024,
+    "firm_role": "Advisor",
+    "description": "S&P Global Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2024-07-12.",
+    "attributes": {
+      "edgar_cik": 64040,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-24-178599",
+      "filing_date": "2024-07-12",
+      "filings_in_year": 1,
+      "sic_code": "7320"
+    }
+  },
+  {
+    "matter_id": "M0021",
+    "name": "CVS HEALTH Corp \u2014 Merger (2017)",
+    "client_id": "C0064803",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 7793000000.0,
+    "year": 2017,
+    "firm_role": "Advisor",
+    "description": "CVS HEALTH Corp merger matter; sourced from SEC EDGAR form 425 filed 2017-12-28.",
+    "attributes": {
+      "edgar_cik": 64803,
+      "edgar_form": "425",
+      "accession_number": "0001193125-17-381691",
+      "filing_date": "2017-12-28",
+      "filings_in_year": 35,
+      "sic_code": "5912"
+    }
+  },
+  {
+    "matter_id": "M0022",
+    "name": "CVS HEALTH Corp \u2014 Merger (2018)",
+    "client_id": "C0064803",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 2625000000.0,
+    "year": 2018,
+    "firm_role": "Lead counsel",
+    "description": "CVS HEALTH Corp merger matter; sourced from SEC EDGAR form S-4 filed 2018-01-04.",
+    "attributes": {
+      "edgar_cik": 64803,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-18-002957",
+      "filing_date": "2018-01-04",
+      "filings_in_year": 56,
+      "sic_code": "5912"
+    }
+  },
+  {
+    "matter_id": "M0023",
+    "name": "TEXAS INSTRUMENTS INC \u2014 Merger (2026)",
+    "client_id": "C0097476",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 28079000000.0,
+    "year": 2026,
+    "firm_role": "Advisor",
+    "description": "TEXAS INSTRUMENTS INC merger matter; sourced from SEC EDGAR form 425 filed 2026-02-05.",
+    "attributes": {
+      "edgar_cik": 97476,
+      "edgar_form": "425",
+      "accession_number": "0001193125-26-038119",
+      "filing_date": "2026-02-05",
+      "filings_in_year": 11,
+      "sic_code": "3674"
+    }
+  },
+  {
+    "matter_id": "M0024",
+    "name": "THERMO FISHER SCIENTIFIC INC. \u2014 Tender offer (2020)",
+    "client_id": "C0097745",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 384000000.0,
+    "year": 2020,
+    "firm_role": "Co-counsel",
+    "description": "THERMO FISHER SCIENTIFIC INC. tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2020-04-28.",
+    "attributes": {
+      "edgar_cik": 97745,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001104659-20-051835",
+      "filing_date": "2020-04-28",
+      "filings_in_year": 25,
+      "sic_code": "3829"
+    }
+  },
+  {
+    "matter_id": "M0025",
+    "name": "THERMO FISHER SCIENTIFIC INC. \u2014 Tender offer (2023)",
+    "client_id": "C0097745",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 29887000000.0,
+    "year": 2023,
+    "firm_role": "Co-counsel",
+    "description": "THERMO FISHER SCIENTIFIC INC. tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2023-10-31.",
+    "attributes": {
+      "edgar_cik": 97745,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001140361-23-050396",
+      "filing_date": "2023-10-31",
+      "filings_in_year": 10,
+      "sic_code": "3829"
+    }
+  },
+  {
+    "matter_id": "M0026",
+    "name": "THERMO FISHER SCIENTIFIC INC. \u2014 Tender offer (2024)",
+    "client_id": "C0097745",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 4563000000.0,
+    "year": 2024,
+    "firm_role": "Lead counsel",
+    "description": "THERMO FISHER SCIENTIFIC INC. tender offer matter; sourced from SEC EDGAR form SC TO-T/A filed 2024-07-17.",
+    "attributes": {
+      "edgar_cik": 97745,
+      "edgar_form": "SC TO-T/A",
+      "accession_number": "0000950157-24-000996",
+      "filing_date": "2024-07-17",
+      "filings_in_year": 11,
+      "sic_code": "3829"
+    }
+  },
+  {
+    "matter_id": "M0027",
+    "name": "JOHNSON & JOHNSON \u2014 Tender offer (2020)",
+    "client_id": "C0200406",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "NJ",
+    "deal_value": 28505000000.0,
+    "year": 2020,
+    "firm_role": "Advisor",
+    "description": "JOHNSON & JOHNSON tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2020-09-02.",
+    "attributes": {
+      "edgar_cik": 200406,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-20-237578",
+      "filing_date": "2020-09-02",
+      "filings_in_year": 5,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0028",
+    "name": "JOHNSON & JOHNSON \u2014 Tender offer (2022)",
+    "client_id": "C0200406",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "NJ",
+    "deal_value": 29487000000.0,
+    "year": 2022,
+    "firm_role": "Lead counsel",
+    "description": "JOHNSON & JOHNSON tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2022-11-15.",
+    "attributes": {
+      "edgar_cik": 200406,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-22-285216",
+      "filing_date": "2022-11-15",
+      "filings_in_year": 6,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0029",
+    "name": "JOHNSON & JOHNSON \u2014 Merger (2023)",
+    "client_id": "C0200406",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "NJ",
+    "deal_value": 554000000.0,
+    "year": 2023,
+    "firm_role": "Co-counsel",
+    "description": "JOHNSON & JOHNSON merger matter; sourced from SEC EDGAR form 425 filed 2023-08-23.",
+    "attributes": {
+      "edgar_cik": 200406,
+      "edgar_form": "425",
+      "accession_number": "0001628280-23-030298",
+      "filing_date": "2023-08-23",
+      "filings_in_year": 58,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0030",
+    "name": "Merck & Co., Inc. \u2014 Tender offer (2019)",
+    "client_id": "C0310158",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "NJ",
+    "deal_value": 1060000000.0,
+    "year": 2019,
+    "firm_role": "Lead counsel",
+    "description": "Merck & Co., Inc. tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2019-12-17.",
+    "attributes": {
+      "edgar_cik": 310158,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001140361-19-022734",
+      "filing_date": "2019-12-17",
+      "filings_in_year": 6,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0031",
+    "name": "Merck & Co., Inc. \u2014 Tender offer (2020)",
+    "client_id": "C0310158",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "NJ",
+    "deal_value": 86000000.0,
+    "year": 2020,
+    "firm_role": "Lead counsel",
+    "description": "Merck & Co., Inc. tender offer matter; sourced from SEC EDGAR form SC TO-T/A filed 2020-01-16.",
+    "attributes": {
+      "edgar_cik": 310158,
+      "edgar_form": "SC TO-T/A",
+      "accession_number": "0001140361-20-000884",
+      "filing_date": "2020-01-16",
+      "filings_in_year": 4,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0032",
+    "name": "Merck & Co., Inc. \u2014 Tender offer (2025)",
+    "client_id": "C0310158",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "NJ",
+    "deal_value": 3313000000.0,
+    "year": 2025,
+    "firm_role": "Lead counsel",
+    "description": "Merck & Co., Inc. tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2025-12-05.",
+    "attributes": {
+      "edgar_cik": 310158,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-25-309877",
+      "filing_date": "2025-12-05",
+      "filings_in_year": 3,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0033",
+    "name": "Merck & Co., Inc. \u2014 Tender offer (2026)",
+    "client_id": "C0310158",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "NJ",
+    "deal_value": 2572000000.0,
+    "year": 2026,
+    "firm_role": "Advisor",
+    "description": "Merck & Co., Inc. tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2026-04-07.",
+    "attributes": {
+      "edgar_cik": 310158,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-26-144514",
+      "filing_date": "2026-04-07",
+      "filings_in_year": 4,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0034",
+    "name": "Aon plc \u2014 Merger (2019)",
+    "client_id": "C0315293",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "L2",
+    "deal_value": 51000000.0,
+    "year": 2019,
+    "firm_role": "Lead counsel",
+    "description": "Aon plc merger matter; sourced from SEC EDGAR form 425 filed 2019-03-05.",
+    "attributes": {
+      "edgar_cik": 315293,
+      "edgar_form": "425",
+      "accession_number": "0001193125-19-063694",
+      "filing_date": "2019-03-05",
+      "filings_in_year": 1,
+      "sic_code": "6411"
+    }
+  },
+  {
+    "matter_id": "M0035",
+    "name": "Aon plc \u2014 Merger (shareholder vote) (2020)",
+    "client_id": "C0315293",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger (shareholder vote)",
+    "jurisdiction": "L2",
+    "deal_value": 2275000000.0,
+    "year": 2020,
+    "firm_role": "Co-counsel",
+    "description": "Aon plc merger (shareholder vote) matter; sourced from SEC EDGAR form DEFM14A filed 2020-07-08.",
+    "attributes": {
+      "edgar_cik": 315293,
+      "edgar_form": "DEFM14A",
+      "accession_number": "0001193125-20-189777",
+      "filing_date": "2020-07-08",
+      "filings_in_year": 2,
+      "sic_code": "6411"
+    }
+  },
+  {
+    "matter_id": "M0036",
+    "name": "Aon plc \u2014 Merger (2024)",
+    "client_id": "C0315293",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "L2",
+    "deal_value": 159000000.0,
+    "year": 2024,
+    "firm_role": "Advisor",
+    "description": "Aon plc merger matter; sourced from SEC EDGAR form S-4 filed 2024-02-26.",
+    "attributes": {
+      "edgar_cik": 315293,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-24-045397",
+      "filing_date": "2024-02-26",
+      "filings_in_year": 3,
+      "sic_code": "6411"
+    }
+  },
+  {
+    "matter_id": "M0037",
+    "name": "SCHWAB CHARLES CORP \u2014 Merger (2021)",
+    "client_id": "C0316709",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 217000000.0,
+    "year": 2021,
+    "firm_role": "Advisor",
+    "description": "SCHWAB CHARLES CORP merger matter; sourced from SEC EDGAR form S-4 filed 2021-08-24.",
+    "attributes": {
+      "edgar_cik": 316709,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-21-254531",
+      "filing_date": "2021-08-24",
+      "filings_in_year": 2,
+      "sic_code": "6211"
+    }
+  },
+  {
+    "matter_id": "M0038",
+    "name": "AMGEN INC \u2014 Merger (2021)",
+    "client_id": "C0318154",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 66394000000.0,
+    "year": 2021,
+    "firm_role": "Lead counsel",
+    "description": "AMGEN INC merger matter; sourced from SEC EDGAR form S-4 filed 2021-02-09.",
+    "attributes": {
+      "edgar_cik": 318154,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-21-034507",
+      "filing_date": "2021-02-09",
+      "filings_in_year": 7,
+      "sic_code": "2836"
+    }
+  },
+  {
+    "matter_id": "M0039",
+    "name": "PNC FINANCIAL SERVICES GROUP, INC. \u2014 Merger (2025)",
+    "client_id": "C0713676",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "PA",
+    "deal_value": 196000000.0,
+    "year": 2025,
+    "firm_role": "Advisor",
+    "description": "PNC FINANCIAL SERVICES GROUP, INC. merger matter; sourced from SEC EDGAR form S-4 filed 2025-10-07.",
+    "attributes": {
+      "edgar_cik": 713676,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-25-233668",
+      "filing_date": "2025-10-07",
+      "filings_in_year": 26,
+      "sic_code": "6021"
+    }
+  },
+  {
+    "matter_id": "M0040",
+    "name": "MICROSOFT CORP \u2014 Merger (2020)",
+    "client_id": "C0789019",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "WA",
+    "deal_value": 399000000.0,
+    "year": 2020,
+    "firm_role": "Co-counsel",
+    "description": "MICROSOFT CORP merger matter; sourced from SEC EDGAR form S-4 filed 2020-04-30.",
+    "attributes": {
+      "edgar_cik": 789019,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-20-128744",
+      "filing_date": "2020-04-30",
+      "filings_in_year": 2,
+      "sic_code": "7372"
+    }
+  },
+  {
+    "matter_id": "M0041",
+    "name": "MICROSOFT CORP \u2014 Merger (2021)",
+    "client_id": "C0789019",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "WA",
+    "deal_value": 56000000.0,
+    "year": 2021,
+    "firm_role": "Lead counsel",
+    "description": "MICROSOFT CORP merger matter; sourced from SEC EDGAR form S-4 filed 2021-02-16.",
+    "attributes": {
+      "edgar_cik": 789019,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-21-044789",
+      "filing_date": "2021-02-16",
+      "filings_in_year": 2,
+      "sic_code": "7372"
+    }
+  },
+  {
+    "matter_id": "M0042",
+    "name": "MICROSOFT CORP \u2014 Merger (2024)",
+    "client_id": "C0789019",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "WA",
+    "deal_value": 254000000.0,
+    "year": 2024,
+    "firm_role": "Advisor",
+    "description": "MICROSOFT CORP merger matter; sourced from SEC EDGAR form S-4 filed 2024-04-26.",
+    "attributes": {
+      "edgar_cik": 789019,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-24-118081",
+      "filing_date": "2024-04-26",
+      "filings_in_year": 1,
+      "sic_code": "7372"
+    }
+  },
+  {
+    "matter_id": "M0043",
+    "name": "ADOBE INC. \u2014 Merger (2022)",
+    "client_id": "C0796343",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 166000000.0,
+    "year": 2022,
+    "firm_role": "Co-counsel",
+    "description": "ADOBE INC. merger matter; sourced from SEC EDGAR form S-4 filed 2022-11-15.",
+    "attributes": {
+      "edgar_cik": 796343,
+      "edgar_form": "S-4",
+      "accession_number": "0001140361-22-041527",
+      "filing_date": "2022-11-15",
+      "filings_in_year": 17,
+      "sic_code": "7372"
+    }
+  },
+  {
+    "matter_id": "M0044",
+    "name": "ADOBE INC. \u2014 Merger (2023)",
+    "client_id": "C0796343",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 25090000000.0,
+    "year": 2023,
+    "firm_role": "Lead counsel",
+    "description": "ADOBE INC. merger matter; sourced from SEC EDGAR form S-4/A filed 2023-01-09.",
+    "attributes": {
+      "edgar_cik": 796343,
+      "edgar_form": "S-4/A",
+      "accession_number": "0001140361-23-000921",
+      "filing_date": "2023-01-09",
+      "filings_in_year": 2,
+      "sic_code": "7372"
+    }
+  },
+  {
+    "matter_id": "M0045",
+    "name": "QUALCOMM INC/DE \u2014 Tender offer (2018)",
+    "client_id": "C0804328",
+    "practice_area": "Technology M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 75861000000.0,
+    "year": 2018,
+    "firm_role": "Co-counsel",
+    "description": "QUALCOMM INC/DE tender offer matter; sourced from SEC EDGAR form SC TO-T/A filed 2018-07-26.",
+    "attributes": {
+      "edgar_cik": 804328,
+      "edgar_form": "SC TO-T/A",
+      "accession_number": "0001104659-18-047167",
+      "filing_date": "2018-07-26",
+      "filings_in_year": 10,
+      "sic_code": "3663"
+    }
+  },
+  {
+    "matter_id": "M0046",
+    "name": "QUALCOMM INC/DE \u2014 Merger (2020)",
+    "client_id": "C0804328",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 2096000000.0,
+    "year": 2020,
+    "firm_role": "Co-counsel",
+    "description": "QUALCOMM INC/DE merger matter; sourced from SEC EDGAR form S-4 filed 2020-11-05.",
+    "attributes": {
+      "edgar_cik": 804328,
+      "edgar_form": "S-4",
+      "accession_number": "0001047469-20-005400",
+      "filing_date": "2020-11-05",
+      "filings_in_year": 1,
+      "sic_code": "3663"
+    }
+  },
+  {
+    "matter_id": "M0047",
+    "name": "CISCO SYSTEMS, INC. \u2014 Merger (2023)",
+    "client_id": "C0858877",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 4389000000.0,
+    "year": 2023,
+    "firm_role": "Lead counsel",
+    "description": "CISCO SYSTEMS, INC. merger matter; sourced from SEC EDGAR form 425 filed 2023-09-21.",
+    "attributes": {
+      "edgar_cik": 858877,
+      "edgar_form": "425",
+      "accession_number": "0001104659-23-102595",
+      "filing_date": "2023-09-21",
+      "filings_in_year": 1,
+      "sic_code": "3576"
+    }
+  },
+  {
+    "matter_id": "M0048",
+    "name": "VERTEX PHARMACEUTICALS INC / MA \u2014 Tender offer (2024)",
+    "client_id": "C0875320",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "MA",
+    "deal_value": 1655000000.0,
+    "year": 2024,
+    "firm_role": "Co-counsel",
+    "description": "VERTEX PHARMACEUTICALS INC / MA tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2024-04-22.",
+    "attributes": {
+      "edgar_cik": 875320,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-24-104867",
+      "filing_date": "2024-04-22",
+      "filings_in_year": 4,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0049",
+    "name": "GILEAD SCIENCES, INC. \u2014 Tender offer (2020)",
+    "client_id": "C0882095",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 3590000000.0,
+    "year": 2020,
+    "firm_role": "Lead counsel",
+    "description": "GILEAD SCIENCES, INC. tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2020-09-24.",
+    "attributes": {
+      "edgar_cik": 882095,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001047469-20-004976",
+      "filing_date": "2020-09-24",
+      "filings_in_year": 12,
+      "sic_code": "2836"
+    }
+  },
+  {
+    "matter_id": "M0050",
+    "name": "GILEAD SCIENCES, INC. \u2014 Tender offer (2024)",
+    "client_id": "C0882095",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 4120000000.0,
+    "year": 2024,
+    "firm_role": "Lead counsel",
+    "description": "GILEAD SCIENCES, INC. tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2024-02-23.",
+    "attributes": {
+      "edgar_cik": 882095,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001104659-24-026741",
+      "filing_date": "2024-02-23",
+      "filings_in_year": 6,
+      "sic_code": "2836"
+    }
+  },
+  {
+    "matter_id": "M0051",
+    "name": "GILEAD SCIENCES, INC. \u2014 Tender offer (2026)",
+    "client_id": "C0882095",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "DE",
+    "deal_value": 399000000.0,
+    "year": 2026,
+    "firm_role": "Lead counsel",
+    "description": "GILEAD SCIENCES, INC. tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2026-03-06.",
+    "attributes": {
+      "edgar_cik": 882095,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001104659-26-024755",
+      "filing_date": "2026-03-06",
+      "filings_in_year": 4,
+      "sic_code": "2836"
+    }
+  },
+  {
+    "matter_id": "M0052",
+    "name": "INTUIT INC. \u2014 Merger (2020)",
+    "client_id": "C0896878",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 1612000000.0,
+    "year": 2020,
+    "firm_role": "Co-counsel",
+    "description": "INTUIT INC. merger matter; sourced from SEC EDGAR form S-4 filed 2020-05-01.",
+    "attributes": {
+      "edgar_cik": 896878,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-20-129842",
+      "filing_date": "2020-05-01",
+      "filings_in_year": 5,
+      "sic_code": "7372"
+    }
+  },
+  {
+    "matter_id": "M0053",
+    "name": "CAPITAL ONE FINANCIAL CORP \u2014 Merger (2024)",
+    "client_id": "C0927628",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 15154000000.0,
+    "year": 2024,
+    "firm_role": "Co-counsel",
+    "description": "CAPITAL ONE FINANCIAL CORP merger matter; sourced from SEC EDGAR form S-4 filed 2024-04-19.",
+    "attributes": {
+      "edgar_cik": 927628,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-24-101304",
+      "filing_date": "2024-04-19",
+      "filings_in_year": 25,
+      "sic_code": "6021"
+    }
+  },
+  {
+    "matter_id": "M0054",
+    "name": "CAPITAL ONE FINANCIAL CORP \u2014 Merger (2025)",
+    "client_id": "C0927628",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 1340000000.0,
+    "year": 2025,
+    "firm_role": "Advisor",
+    "description": "CAPITAL ONE FINANCIAL CORP merger matter; sourced from SEC EDGAR form S-4/A filed 2025-01-03.",
+    "attributes": {
+      "edgar_cik": 927628,
+      "edgar_form": "S-4/A",
+      "accession_number": "0001193125-25-001580",
+      "filing_date": "2025-01-03",
+      "filings_in_year": 4,
+      "sic_code": "6021"
+    }
+  },
+  {
+    "matter_id": "M0055",
+    "name": "ORACLE CORP \u2014 Tender offer (2016)",
+    "client_id": "C1341439",
+    "practice_area": "Technology M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "",
+    "deal_value": 14175000000.0,
+    "year": 2016,
+    "firm_role": "Co-counsel",
+    "description": "ORACLE CORP tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2016-08-18.",
+    "attributes": {
+      "edgar_cik": 1341439,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-16-684804",
+      "filing_date": "2016-08-18",
+      "filings_in_year": 15,
+      "sic_code": "7372"
+    }
+  },
+  {
+    "matter_id": "M0056",
+    "name": "ORACLE CORP \u2014 Tender offer (2022)",
+    "client_id": "C1341439",
+    "practice_area": "Technology M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "",
+    "deal_value": 4912000000.0,
+    "year": 2022,
+    "firm_role": "Co-counsel",
+    "description": "ORACLE CORP tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2022-01-19.",
+    "attributes": {
+      "edgar_cik": 1341439,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-22-012503",
+      "filing_date": "2022-01-19",
+      "filings_in_year": 9,
+      "sic_code": "7372"
+    }
+  },
+  {
+    "matter_id": "M0057",
+    "name": "ServiceNow, Inc. \u2014 Merger (2025)",
+    "client_id": "C1373715",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 8762000000.0,
+    "year": 2025,
+    "firm_role": "Lead counsel",
+    "description": "ServiceNow, Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2025-04-23.",
+    "attributes": {
+      "edgar_cik": 1373715,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-25-091451",
+      "filing_date": "2025-04-23",
+      "filings_in_year": 4,
+      "sic_code": "7372"
+    }
+  },
+  {
+    "matter_id": "M0058",
+    "name": "AbbVie Inc. \u2014 Merger (2020)",
+    "client_id": "C1551152",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 586000000.0,
+    "year": 2020,
+    "firm_role": "Lead counsel",
+    "description": "AbbVie Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2020-10-02.",
+    "attributes": {
+      "edgar_cik": 1551152,
+      "edgar_form": "S-4",
+      "accession_number": "0001047469-20-005079",
+      "filing_date": "2020-10-02",
+      "filings_in_year": 1,
+      "sic_code": "2834"
+    }
+  },
+  {
+    "matter_id": "M0059",
+    "name": "Intercontinental Exchange, Inc. \u2014 Merger (2022)",
+    "client_id": "C1571949",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 461000000.0,
+    "year": 2022,
+    "firm_role": "Lead counsel",
+    "description": "Intercontinental Exchange, Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2022-06-17.",
+    "attributes": {
+      "edgar_cik": 1571949,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-22-176625",
+      "filing_date": "2022-06-17",
+      "filings_in_year": 16,
+      "sic_code": "6200"
+    }
+  },
+  {
+    "matter_id": "M0060",
+    "name": "Intercontinental Exchange, Inc. \u2014 Merger (2023)",
+    "client_id": "C1571949",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 54000000.0,
+    "year": 2023,
+    "firm_role": "Advisor",
+    "description": "Intercontinental Exchange, Inc. merger matter; sourced from SEC EDGAR form 425 filed 2023-08-28.",
+    "attributes": {
+      "edgar_cik": 1571949,
+      "edgar_form": "425",
+      "accession_number": "0001193125-23-221846",
+      "filing_date": "2023-08-28",
+      "filings_in_year": 7,
+      "sic_code": "6200"
+    }
+  },
+  {
+    "matter_id": "M0061",
+    "name": "Intercontinental Exchange, Inc. \u2014 Merger (2024)",
+    "client_id": "C1571949",
+    "practice_area": "Financial Services M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 773000000.0,
+    "year": 2024,
+    "firm_role": "Advisor",
+    "description": "Intercontinental Exchange, Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2024-08-02.",
+    "attributes": {
+      "edgar_cik": 1571949,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-24-192081",
+      "filing_date": "2024-08-02",
+      "filings_in_year": 1,
+      "sic_code": "6200"
+    }
+  },
+  {
+    "matter_id": "M0062",
+    "name": "Medtronic plc \u2014 Tender offer (2016)",
+    "client_id": "C1613103",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Tender offer",
+    "jurisdiction": "",
+    "deal_value": 27724000000.0,
+    "year": 2016,
+    "firm_role": "Co-counsel",
+    "description": "Medtronic plc tender offer matter; sourced from SEC EDGAR form SC TO-T filed 2016-07-26.",
+    "attributes": {
+      "edgar_cik": 1613103,
+      "edgar_form": "SC TO-T",
+      "accession_number": "0001193125-16-657347",
+      "filing_date": "2016-07-26",
+      "filings_in_year": 5,
+      "sic_code": "3845"
+    }
+  },
+  {
+    "matter_id": "M0063",
+    "name": "Broadcom Inc. \u2014 Merger (2018)",
+    "client_id": "C1730168",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "",
+    "deal_value": 21461000000.0,
+    "year": 2018,
+    "firm_role": "Advisor",
+    "description": "Broadcom Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2018-02-06.",
+    "attributes": {
+      "edgar_cik": 1730168,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-18-033464",
+      "filing_date": "2018-02-06",
+      "filings_in_year": 2,
+      "sic_code": "3674"
+    }
+  },
+  {
+    "matter_id": "M0064",
+    "name": "Broadcom Inc. \u2014 Merger (2020)",
+    "client_id": "C1730168",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "",
+    "deal_value": 6654000000.0,
+    "year": 2020,
+    "firm_role": "Co-counsel",
+    "description": "Broadcom Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2020-06-26.",
+    "attributes": {
+      "edgar_cik": 1730168,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-20-181016",
+      "filing_date": "2020-06-26",
+      "filings_in_year": 1,
+      "sic_code": "3674"
+    }
+  },
+  {
+    "matter_id": "M0065",
+    "name": "Broadcom Inc. \u2014 Merger (2022)",
+    "client_id": "C1730168",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "",
+    "deal_value": 465000000.0,
+    "year": 2022,
+    "firm_role": "Lead counsel",
+    "description": "Broadcom Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2022-07-15.",
+    "attributes": {
+      "edgar_cik": 1730168,
+      "edgar_form": "S-4",
+      "accession_number": "0001140361-22-026160",
+      "filing_date": "2022-07-15",
+      "filings_in_year": 35,
+      "sic_code": "3674"
+    }
+  },
+  {
+    "matter_id": "M0066",
+    "name": "Broadcom Inc. \u2014 Merger (2023)",
+    "client_id": "C1730168",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "",
+    "deal_value": 177000000.0,
+    "year": 2023,
+    "firm_role": "Advisor",
+    "description": "Broadcom Inc. merger matter; sourced from SEC EDGAR form 425 filed 2023-10-30.",
+    "attributes": {
+      "edgar_cik": 1730168,
+      "edgar_form": "425",
+      "accession_number": "0001140361-23-050222",
+      "filing_date": "2023-10-30",
+      "filings_in_year": 24,
+      "sic_code": "3674"
+    }
+  },
+  {
+    "matter_id": "M0067",
+    "name": "Broadcom Inc. \u2014 Merger (2025)",
+    "client_id": "C1730168",
+    "practice_area": "Technology M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "",
+    "deal_value": 5875000000.0,
+    "year": 2025,
+    "firm_role": "Co-counsel",
+    "description": "Broadcom Inc. merger matter; sourced from SEC EDGAR form S-4 filed 2025-09-10.",
+    "attributes": {
+      "edgar_cik": 1730168,
+      "edgar_form": "S-4",
+      "accession_number": "0001193125-25-200194",
+      "filing_date": "2025-09-10",
+      "filings_in_year": 2,
+      "sic_code": "3674"
+    }
+  },
+  {
+    "matter_id": "M0068",
+    "name": "Cigna Group \u2014 Merger (2018)",
+    "client_id": "C1739940",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 2964000000.0,
+    "year": 2018,
+    "firm_role": "Advisor",
+    "description": "Cigna Group merger matter; sourced from SEC EDGAR form S-4 filed 2018-05-16.",
+    "attributes": {
+      "edgar_cik": 1739940,
+      "edgar_form": "S-4",
+      "accession_number": "0001140361-18-024107",
+      "filing_date": "2018-05-16",
+      "filings_in_year": 5,
+      "sic_code": "6324"
+    }
+  },
+  {
+    "matter_id": "M0069",
+    "name": "Cigna Group \u2014 Merger (2019)",
+    "client_id": "C1739940",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 496000000.0,
+    "year": 2019,
+    "firm_role": "Lead counsel",
+    "description": "Cigna Group merger matter; sourced from SEC EDGAR form S-4 filed 2019-06-21.",
+    "attributes": {
+      "edgar_cik": 1739940,
+      "edgar_form": "S-4",
+      "accession_number": "0001140361-19-011351",
+      "filing_date": "2019-06-21",
+      "filings_in_year": 2,
+      "sic_code": "6324"
+    }
+  },
+  {
+    "matter_id": "M0070",
+    "name": "Cigna Group \u2014 Merger (2020)",
+    "client_id": "C1739940",
+    "practice_area": "Healthcare M&A",
+    "deal_type": "Merger",
+    "jurisdiction": "DE",
+    "deal_value": 526000000.0,
+    "year": 2020,
+    "firm_role": "Lead counsel",
+    "description": "Cigna Group merger matter; sourced from SEC EDGAR form S-4 filed 2020-05-28.",
+    "attributes": {
+      "edgar_cik": 1739940,
+      "edgar_form": "S-4",
+      "accession_number": "0001140361-20-012625",
+      "filing_date": "2020-05-28",
+      "filings_in_year": 1,
+      "sic_code": "6324"
+    }
+  }
+]

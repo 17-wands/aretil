@@ -1,0 +1,157 @@
+[
+  {
+    "tag_id": "TAG001",
+    "tag_type": "industry_code",
+    "value": "3674"
+  },
+  {
+    "tag_id": "TAG002",
+    "tag_type": "governing_law",
+    "value": "DE"
+  },
+  {
+    "tag_id": "TAG003",
+    "tag_type": "deal_subtype",
+    "value": "S-4"
+  },
+  {
+    "tag_id": "TAG004",
+    "tag_type": "deal_subtype",
+    "value": "S-4/A"
+  },
+  {
+    "tag_id": "TAG005",
+    "tag_type": "industry_code",
+    "value": "3841"
+  },
+  {
+    "tag_id": "TAG006",
+    "tag_type": "governing_law",
+    "value": "NJ"
+  },
+  {
+    "tag_id": "TAG007",
+    "tag_type": "deal_subtype",
+    "value": "425"
+  },
+  {
+    "tag_id": "TAG008",
+    "tag_type": "industry_code",
+    "value": "2834"
+  },
+  {
+    "tag_id": "TAG009",
+    "tag_type": "deal_subtype",
+    "value": "SC TO-T"
+  },
+  {
+    "tag_id": "TAG010",
+    "tag_type": "industry_code",
+    "value": "3570"
+  },
+  {
+    "tag_id": "TAG011",
+    "tag_type": "governing_law",
+    "value": "IN"
+  },
+  {
+    "tag_id": "TAG012",
+    "tag_type": "industry_code",
+    "value": "7320"
+  },
+  {
+    "tag_id": "TAG013",
+    "tag_type": "governing_law",
+    "value": "NY"
+  },
+  {
+    "tag_id": "TAG014",
+    "tag_type": "industry_code",
+    "value": "5912"
+  },
+  {
+    "tag_id": "TAG015",
+    "tag_type": "industry_code",
+    "value": "3829"
+  },
+  {
+    "tag_id": "TAG016",
+    "tag_type": "deal_subtype",
+    "value": "SC TO-T/A"
+  },
+  {
+    "tag_id": "TAG017",
+    "tag_type": "industry_code",
+    "value": "6411"
+  },
+  {
+    "tag_id": "TAG018",
+    "tag_type": "governing_law",
+    "value": "L2"
+  },
+  {
+    "tag_id": "TAG019",
+    "tag_type": "deal_subtype",
+    "value": "DEFM14A"
+  },
+  {
+    "tag_id": "TAG020",
+    "tag_type": "industry_code",
+    "value": "6211"
+  },
+  {
+    "tag_id": "TAG021",
+    "tag_type": "industry_code",
+    "value": "2836"
+  },
+  {
+    "tag_id": "TAG022",
+    "tag_type": "industry_code",
+    "value": "6021"
+  },
+  {
+    "tag_id": "TAG023",
+    "tag_type": "governing_law",
+    "value": "PA"
+  },
+  {
+    "tag_id": "TAG024",
+    "tag_type": "industry_code",
+    "value": "7372"
+  },
+  {
+    "tag_id": "TAG025",
+    "tag_type": "governing_law",
+    "value": "WA"
+  },
+  {
+    "tag_id": "TAG026",
+    "tag_type": "industry_code",
+    "value": "3663"
+  },
+  {
+    "tag_id": "TAG027",
+    "tag_type": "industry_code",
+    "value": "3576"
+  },
+  {
+    "tag_id": "TAG028",
+    "tag_type": "governing_law",
+    "value": "MA"
+  },
+  {
+    "tag_id": "TAG029",
+    "tag_type": "industry_code",
+    "value": "6200"
+  },
+  {
+    "tag_id": "TAG030",
+    "tag_type": "industry_code",
+    "value": "3845"
+  },
+  {
+    "tag_id": "TAG031",
+    "tag_type": "industry_code",
+    "value": "6324"
+  }
+]

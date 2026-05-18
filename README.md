@@ -70,9 +70,12 @@ The project is built issue by issue. What runs today:
 ```bash
 # Create the DuckDB database and apply the schema
 .venv/bin/python scripts/init_db.py
+
+# Regenerate the demo fixtures from SEC EDGAR (optional — fixtures are committed)
+.venv/bin/python scripts/generate_data.py
 ```
 
-Synthetic data, the MCP server, and the web app arrive in later issues.
+The MCP server and the web app arrive in later issues.
 
 ## Checks
 

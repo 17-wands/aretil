@@ -8,9 +8,11 @@ intelligence, and AI-native query.
 > **Disclaimer — proof of concept.** `aretil` is an unaffiliated proof of concept
 > built for product exploration. It is not production software, and is not
 > affiliated with, authorized by, or endorsed by Litera or any other company named
-> in these documents. It uses synthetic data only — no real firm, client, or
-> personal data — and is built entirely from publicly available information, with
-> no confidential or insider knowledge. Competitive references reflect public
+> in these documents. Its demo dataset is a synthetic assembly seeded from public
+> SEC EDGAR filings — the client companies, deals, and counsel are real and
+> public; the law firm, its timekeepers, and deal values are fictional. It is
+> built entirely from publicly available information, with no confidential or
+> insider knowledge. Competitive references reflect public
 > information at a point in time and may be incomplete or out of date. Provided
 > as-is, without warranty.
 
