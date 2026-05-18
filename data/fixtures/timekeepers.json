@@ -1,0 +1,156 @@
+[
+  {
+    "timekeeper_id": "T001",
+    "name": "David Delgado",
+    "title": "Partner",
+    "practice_group": "Antitrust",
+    "years_experience": 19
+  },
+  {
+    "timekeeper_id": "T002",
+    "name": "Nina Reyes",
+    "title": "Counsel",
+    "practice_group": "Corporate",
+    "years_experience": 6
+  },
+  {
+    "timekeeper_id": "T003",
+    "name": "James Ferreira",
+    "title": "Senior Associate",
+    "practice_group": "Healthcare",
+    "years_experience": 13
+  },
+  {
+    "timekeeper_id": "T004",
+    "name": "David Donnelly",
+    "title": "Associate",
+    "practice_group": "Financial Institutions",
+    "years_experience": 4
+  },
+  {
+    "timekeeper_id": "T005",
+    "name": "Alan Ferreira",
+    "title": "Associate",
+    "practice_group": "Financial Institutions",
+    "years_experience": 6
+  },
+  {
+    "timekeeper_id": "T006",
+    "name": "Rachel Ruiz",
+    "title": "Partner",
+    "practice_group": "Healthcare",
+    "years_experience": 21
+  },
+  {
+    "timekeeper_id": "T007",
+    "name": "James Reyes",
+    "title": "Partner",
+    "practice_group": "Financial Institutions",
+    "years_experience": 26
+  },
+  {
+    "timekeeper_id": "T008",
+    "name": "James Stafford",
+    "title": "Counsel",
+    "practice_group": "Financial Institutions",
+    "years_experience": 5
+  },
+  {
+    "timekeeper_id": "T009",
+    "name": "Elena Delgado",
+    "title": "Senior Associate",
+    "practice_group": "Financial Institutions",
+    "years_experience": 9
+  },
+  {
+    "timekeeper_id": "T010",
+    "name": "Marcus Reyes",
+    "title": "Associate",
+    "practice_group": "Financial Institutions",
+    "years_experience": 4
+  },
+  {
+    "timekeeper_id": "T011",
+    "name": "Maya Caldwell",
+    "title": "Associate",
+    "practice_group": "Technology Transactions",
+    "years_experience": 3
+  },
+  {
+    "timekeeper_id": "T012",
+    "name": "Tomas Caldwell",
+    "title": "Partner",
+    "practice_group": "Antitrust",
+    "years_experience": 19
+  },
+  {
+    "timekeeper_id": "T013",
+    "name": "Claire Ruiz",
+    "title": "Partner",
+    "practice_group": "Antitrust",
+    "years_experience": 20
+  },
+  {
+    "timekeeper_id": "T014",
+    "name": "Victor Caldwell",
+    "title": "Counsel",
+    "practice_group": "Antitrust",
+    "years_experience": 5
+  },
+  {
+    "timekeeper_id": "T015",
+    "name": "Noah Caldwell",
+    "title": "Senior Associate",
+    "practice_group": "Financial Institutions",
+    "years_experience": 6
+  },
+  {
+    "timekeeper_id": "T016",
+    "name": "Tomas Cho",
+    "title": "Associate",
+    "practice_group": "Healthcare",
+    "years_experience": 14
+  },
+  {
+    "timekeeper_id": "T017",
+    "name": "Elena Reyes",
+    "title": "Associate",
+    "practice_group": "Technology Transactions",
+    "years_experience": 6
+  },
+  {
+    "timekeeper_id": "T018",
+    "name": "Rachel Okafor",
+    "title": "Partner",
+    "practice_group": "Corporate",
+    "years_experience": 30
+  },
+  {
+    "timekeeper_id": "T019",
+    "name": "Ethan Whitfield",
+    "title": "Partner",
+    "practice_group": "Healthcare",
+    "years_experience": 21
+  },
+  {
+    "timekeeper_id": "T020",
+    "name": "Daniel Petrov",
+    "title": "Counsel",
+    "practice_group": "Financial Institutions",
+    "years_experience": 6
+  },
+  {
+    "timekeeper_id": "T021",
+    "name": "Maya Okafor",
+    "title": "Senior Associate",
+    "practice_group": "Healthcare",
+    "years_experience": 8
+  },
+  {
+    "timekeeper_id": "T022",
+    "name": "Nina Ferreira",
+    "title": "Associate",
+    "practice_group": "Antitrust",
+    "years_experience": 3
+  }
+]

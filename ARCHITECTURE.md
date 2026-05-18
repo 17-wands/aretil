@@ -7,9 +7,11 @@ sketched in §10 and is explicitly out of scope for the build.
 > **Disclaimer — proof of concept.** `aretil` is an unaffiliated proof of concept
 > built for product exploration. It is not production software, and is not
 > affiliated with, authorized by, or endorsed by Litera or any other company named
-> in these documents. It uses synthetic data only — no real firm, client, or
-> personal data — and is built entirely from publicly available information, with
-> no confidential or insider knowledge. Competitive references reflect public
+> in these documents. Its demo dataset is a synthetic assembly seeded from public
+> SEC EDGAR filings — the client companies, deals, and counsel are real and
+> public; the law firm, its timekeepers, and deal values are fictional. It is
+> built entirely from publicly available information, with no confidential or
+> insider knowledge. Competitive references reflect public
 > information at a point in time and may be incomplete or out of date. Provided
 > as-is, without warranty.
 
@@ -123,11 +125,14 @@ Drafting (pitch language, bio prose) and RFP intent parsing use the Claude API �
 `claude-opus-4-7` for quality, `claude-sonnet-4-6` where latency matters. Claude
 does no data retrieval itself; it only calls tools and synthesizes their results.
 
-### 3.8 Synthetic data generator
+### 3.8 Data generator
 
-`scripts/generate_data.py` uses the Claude API to generate the fixtures described
-in PRD §7 — a fictional firm, 50–100 matters, related records, and deliberate name
-variants for the entity-resolution demo.
+`scripts/generate_data.py` builds the demo fixtures (PRD §7) by harvesting real
+M&A filings from the SEC EDGAR submissions API and seeding a synthetic dataset
+from them — real client companies, industries, jurisdictions, deal types, and
+years; a synthesized fictional firm, timekeepers, and illustrative deal values.
+Output is written to `data/fixtures/` and committed, so the build and tests need
+no network access.
 
 ## 4. Data Model
 

@@ -1,0 +1,810 @@
+[
+  {
+    "matter_id": "M0001",
+    "tag_id": "TAG001"
+  },
+  {
+    "matter_id": "M0001",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0001",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0002",
+    "tag_id": "TAG001"
+  },
+  {
+    "matter_id": "M0002",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0002",
+    "tag_id": "TAG004"
+  },
+  {
+    "matter_id": "M0003",
+    "tag_id": "TAG005"
+  },
+  {
+    "matter_id": "M0003",
+    "tag_id": "TAG006"
+  },
+  {
+    "matter_id": "M0003",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0004",
+    "tag_id": "TAG005"
+  },
+  {
+    "matter_id": "M0004",
+    "tag_id": "TAG006"
+  },
+  {
+    "matter_id": "M0004",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0005",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0005",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0005",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0006",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0006",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0006",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0007",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0007",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0007",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0008",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0008",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0008",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0009",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0009",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0009",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0010",
+    "tag_id": "TAG010"
+  },
+  {
+    "matter_id": "M0010",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0010",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0011",
+    "tag_id": "TAG010"
+  },
+  {
+    "matter_id": "M0011",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0011",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0012",
+    "tag_id": "TAG010"
+  },
+  {
+    "matter_id": "M0012",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0012",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0013",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0013",
+    "tag_id": "TAG011"
+  },
+  {
+    "matter_id": "M0013",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0014",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0014",
+    "tag_id": "TAG011"
+  },
+  {
+    "matter_id": "M0014",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0015",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0015",
+    "tag_id": "TAG011"
+  },
+  {
+    "matter_id": "M0015",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0016",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0016",
+    "tag_id": "TAG011"
+  },
+  {
+    "matter_id": "M0016",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0017",
+    "tag_id": "TAG012"
+  },
+  {
+    "matter_id": "M0017",
+    "tag_id": "TAG013"
+  },
+  {
+    "matter_id": "M0017",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0018",
+    "tag_id": "TAG012"
+  },
+  {
+    "matter_id": "M0018",
+    "tag_id": "TAG013"
+  },
+  {
+    "matter_id": "M0018",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0019",
+    "tag_id": "TAG012"
+  },
+  {
+    "matter_id": "M0019",
+    "tag_id": "TAG013"
+  },
+  {
+    "matter_id": "M0019",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0020",
+    "tag_id": "TAG012"
+  },
+  {
+    "matter_id": "M0020",
+    "tag_id": "TAG013"
+  },
+  {
+    "matter_id": "M0020",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0021",
+    "tag_id": "TAG014"
+  },
+  {
+    "matter_id": "M0021",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0021",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0022",
+    "tag_id": "TAG014"
+  },
+  {
+    "matter_id": "M0022",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0022",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0023",
+    "tag_id": "TAG001"
+  },
+  {
+    "matter_id": "M0023",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0023",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0024",
+    "tag_id": "TAG015"
+  },
+  {
+    "matter_id": "M0024",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0024",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0025",
+    "tag_id": "TAG015"
+  },
+  {
+    "matter_id": "M0025",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0025",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0026",
+    "tag_id": "TAG015"
+  },
+  {
+    "matter_id": "M0026",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0026",
+    "tag_id": "TAG016"
+  },
+  {
+    "matter_id": "M0027",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0027",
+    "tag_id": "TAG006"
+  },
+  {
+    "matter_id": "M0027",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0028",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0028",
+    "tag_id": "TAG006"
+  },
+  {
+    "matter_id": "M0028",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0029",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0029",
+    "tag_id": "TAG006"
+  },
+  {
+    "matter_id": "M0029",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0030",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0030",
+    "tag_id": "TAG006"
+  },
+  {
+    "matter_id": "M0030",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0031",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0031",
+    "tag_id": "TAG006"
+  },
+  {
+    "matter_id": "M0031",
+    "tag_id": "TAG016"
+  },
+  {
+    "matter_id": "M0032",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0032",
+    "tag_id": "TAG006"
+  },
+  {
+    "matter_id": "M0032",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0033",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0033",
+    "tag_id": "TAG006"
+  },
+  {
+    "matter_id": "M0033",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0034",
+    "tag_id": "TAG017"
+  },
+  {
+    "matter_id": "M0034",
+    "tag_id": "TAG018"
+  },
+  {
+    "matter_id": "M0034",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0035",
+    "tag_id": "TAG017"
+  },
+  {
+    "matter_id": "M0035",
+    "tag_id": "TAG018"
+  },
+  {
+    "matter_id": "M0035",
+    "tag_id": "TAG019"
+  },
+  {
+    "matter_id": "M0036",
+    "tag_id": "TAG017"
+  },
+  {
+    "matter_id": "M0036",
+    "tag_id": "TAG018"
+  },
+  {
+    "matter_id": "M0036",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0037",
+    "tag_id": "TAG020"
+  },
+  {
+    "matter_id": "M0037",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0037",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0038",
+    "tag_id": "TAG021"
+  },
+  {
+    "matter_id": "M0038",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0038",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0039",
+    "tag_id": "TAG022"
+  },
+  {
+    "matter_id": "M0039",
+    "tag_id": "TAG023"
+  },
+  {
+    "matter_id": "M0039",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0040",
+    "tag_id": "TAG024"
+  },
+  {
+    "matter_id": "M0040",
+    "tag_id": "TAG025"
+  },
+  {
+    "matter_id": "M0040",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0041",
+    "tag_id": "TAG024"
+  },
+  {
+    "matter_id": "M0041",
+    "tag_id": "TAG025"
+  },
+  {
+    "matter_id": "M0041",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0042",
+    "tag_id": "TAG024"
+  },
+  {
+    "matter_id": "M0042",
+    "tag_id": "TAG025"
+  },
+  {
+    "matter_id": "M0042",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0043",
+    "tag_id": "TAG024"
+  },
+  {
+    "matter_id": "M0043",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0043",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0044",
+    "tag_id": "TAG024"
+  },
+  {
+    "matter_id": "M0044",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0044",
+    "tag_id": "TAG004"
+  },
+  {
+    "matter_id": "M0045",
+    "tag_id": "TAG026"
+  },
+  {
+    "matter_id": "M0045",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0045",
+    "tag_id": "TAG016"
+  },
+  {
+    "matter_id": "M0046",
+    "tag_id": "TAG026"
+  },
+  {
+    "matter_id": "M0046",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0046",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0047",
+    "tag_id": "TAG027"
+  },
+  {
+    "matter_id": "M0047",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0047",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0048",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0048",
+    "tag_id": "TAG028"
+  },
+  {
+    "matter_id": "M0048",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0049",
+    "tag_id": "TAG021"
+  },
+  {
+    "matter_id": "M0049",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0049",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0050",
+    "tag_id": "TAG021"
+  },
+  {
+    "matter_id": "M0050",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0050",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0051",
+    "tag_id": "TAG021"
+  },
+  {
+    "matter_id": "M0051",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0051",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0052",
+    "tag_id": "TAG024"
+  },
+  {
+    "matter_id": "M0052",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0052",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0053",
+    "tag_id": "TAG022"
+  },
+  {
+    "matter_id": "M0053",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0053",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0054",
+    "tag_id": "TAG022"
+  },
+  {
+    "matter_id": "M0054",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0054",
+    "tag_id": "TAG004"
+  },
+  {
+    "matter_id": "M0055",
+    "tag_id": "TAG024"
+  },
+  {
+    "matter_id": "M0055",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0056",
+    "tag_id": "TAG024"
+  },
+  {
+    "matter_id": "M0056",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0057",
+    "tag_id": "TAG024"
+  },
+  {
+    "matter_id": "M0057",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0057",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0058",
+    "tag_id": "TAG008"
+  },
+  {
+    "matter_id": "M0058",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0058",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0059",
+    "tag_id": "TAG029"
+  },
+  {
+    "matter_id": "M0059",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0059",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0060",
+    "tag_id": "TAG029"
+  },
+  {
+    "matter_id": "M0060",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0060",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0061",
+    "tag_id": "TAG029"
+  },
+  {
+    "matter_id": "M0061",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0061",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0062",
+    "tag_id": "TAG030"
+  },
+  {
+    "matter_id": "M0062",
+    "tag_id": "TAG009"
+  },
+  {
+    "matter_id": "M0063",
+    "tag_id": "TAG001"
+  },
+  {
+    "matter_id": "M0063",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0064",
+    "tag_id": "TAG001"
+  },
+  {
+    "matter_id": "M0064",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0065",
+    "tag_id": "TAG001"
+  },
+  {
+    "matter_id": "M0065",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0066",
+    "tag_id": "TAG001"
+  },
+  {
+    "matter_id": "M0066",
+    "tag_id": "TAG007"
+  },
+  {
+    "matter_id": "M0067",
+    "tag_id": "TAG001"
+  },
+  {
+    "matter_id": "M0067",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0068",
+    "tag_id": "TAG031"
+  },
+  {
+    "matter_id": "M0068",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0068",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0069",
+    "tag_id": "TAG031"
+  },
+  {
+    "matter_id": "M0069",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0069",
+    "tag_id": "TAG003"
+  },
+  {
+    "matter_id": "M0070",
+    "tag_id": "TAG031"
+  },
+  {
+    "matter_id": "M0070",
+    "tag_id": "TAG002"
+  },
+  {
+    "matter_id": "M0070",
+    "tag_id": "TAG003"
+  }
+]

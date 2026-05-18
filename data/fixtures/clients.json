@@ -1,0 +1,182 @@
+[
+  {
+    "client_id": "C0310158",
+    "name": "Merck & Co., Inc.",
+    "industry": "Pharmaceutical Preparations",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C1551152",
+    "name": "AbbVie Inc.",
+    "industry": "Pharmaceutical Preparations",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0318154",
+    "name": "AMGEN INC",
+    "industry": "Biological Products, (No Diagnostic Substances)",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0882095",
+    "name": "GILEAD SCIENCES, INC.",
+    "industry": "Biological Products, (No Diagnostic Substances)",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0014272",
+    "name": "BRISTOL MYERS SQUIBB CO",
+    "industry": "Pharmaceutical Preparations",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0200406",
+    "name": "JOHNSON & JOHNSON",
+    "industry": "Pharmaceutical Preparations",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0059478",
+    "name": "ELI LILLY & Co",
+    "industry": "Pharmaceutical Preparations",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0097745",
+    "name": "THERMO FISHER SCIENTIFIC INC.",
+    "industry": "Measuring & Controlling Devices, NEC",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0064803",
+    "name": "CVS HEALTH Corp",
+    "industry": "Retail-Drug Stores and Proprietary Stores",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C1739940",
+    "name": "Cigna Group",
+    "industry": "Hospital & Medical Service Plans",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C1613103",
+    "name": "Medtronic plc",
+    "industry": "Electromedical & Electrotherapeutic Apparatus",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0010795",
+    "name": "BECTON DICKINSON & CO",
+    "industry": "Surgical & Medical Instruments & Apparatus",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0875320",
+    "name": "VERTEX PHARMACEUTICALS INC / MA",
+    "industry": "Pharmaceutical Preparations",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0316709",
+    "name": "SCHWAB CHARLES CORP",
+    "industry": "Security Brokers, Dealers & Flotation Companies",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0713676",
+    "name": "PNC FINANCIAL SERVICES GROUP, INC.",
+    "industry": "National Commercial Banks",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0927628",
+    "name": "CAPITAL ONE FINANCIAL CORP",
+    "industry": "National Commercial Banks",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C1571949",
+    "name": "Intercontinental Exchange, Inc.",
+    "industry": "Security & Commodity Brokers, Dealers, Exchanges & Services",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0064040",
+    "name": "S&P Global Inc.",
+    "industry": "Services-Consumer Credit Reporting, Collection Agencies",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0315293",
+    "name": "Aon plc",
+    "industry": "Insurance Agents, Brokers & Service",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0789019",
+    "name": "MICROSOFT CORP",
+    "industry": "Services-Prepackaged Software",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C1341439",
+    "name": "ORACLE CORP",
+    "industry": "Services-Prepackaged Software",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0796343",
+    "name": "ADOBE INC.",
+    "industry": "Services-Prepackaged Software",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0858877",
+    "name": "CISCO SYSTEMS, INC.",
+    "industry": "Computer Communications Equipment",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C1730168",
+    "name": "Broadcom Inc.",
+    "industry": "Semiconductors & Related Devices",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0804328",
+    "name": "QUALCOMM INC/DE",
+    "industry": "Radio & Tv Broadcasting & Communications Equipment",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0047217",
+    "name": "HP INC",
+    "industry": "Computer & office Equipment",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C1373715",
+    "name": "ServiceNow, Inc.",
+    "industry": "Services-Prepackaged Software",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0896878",
+    "name": "INTUIT INC.",
+    "industry": "Services-Prepackaged Software",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0002488",
+    "name": "ADVANCED MICRO DEVICES INC",
+    "industry": "Semiconductors & Related Devices",
+    "parent_client_id": null
+  },
+  {
+    "client_id": "C0097476",
+    "name": "TEXAS INSTRUMENTS INC",
+    "industry": "Semiconductors & Related Devices",
+    "parent_client_id": null
+  }
+]

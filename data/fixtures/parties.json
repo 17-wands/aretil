@@ -1,0 +1,1696 @@
+[
+  {
+    "party_id": "P0001",
+    "matter_id": "M0001",
+    "raw_name": "L&W",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0002",
+    "matter_id": "M0001",
+    "raw_name": "JPMorgan",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0003",
+    "matter_id": "M0001",
+    "raw_name": "ADOBE INC.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0004",
+    "matter_id": "M0002",
+    "raw_name": "Kirkland & Ellis LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0005",
+    "matter_id": "M0002",
+    "raw_name": "Davis Polk",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0006",
+    "matter_id": "M0002",
+    "raw_name": "J.P. Morgan",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0007",
+    "matter_id": "M0002",
+    "raw_name": "GILEAD SCIENCES, INC.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0008",
+    "matter_id": "M0003",
+    "raw_name": "Latham & Watkins",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0009",
+    "matter_id": "M0003",
+    "raw_name": "BofA Securities",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0010",
+    "matter_id": "M0003",
+    "raw_name": "SCHWAB CHARLES CORP",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0011",
+    "matter_id": "M0004",
+    "raw_name": "Cravath",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0012",
+    "matter_id": "M0004",
+    "raw_name": "Centerview Partners LLC",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0013",
+    "matter_id": "M0004",
+    "raw_name": "S&P Global Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0014",
+    "matter_id": "M0005",
+    "raw_name": "K&E",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0015",
+    "matter_id": "M0005",
+    "raw_name": "Weil, Gotshal & Manges LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0016",
+    "matter_id": "M0005",
+    "raw_name": "Goldman Sachs",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0017",
+    "matter_id": "M0005",
+    "raw_name": "ServiceNow, Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0018",
+    "matter_id": "M0006",
+    "raw_name": "Cleary Gottlieb Steen & Hamilton LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0019",
+    "matter_id": "M0006",
+    "raw_name": "Goldman Sachs & Co. LLC",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0020",
+    "matter_id": "M0006",
+    "raw_name": "Aon plc",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0021",
+    "matter_id": "M0007",
+    "raw_name": "Weil",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0022",
+    "matter_id": "M0007",
+    "raw_name": "Lazard",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0023",
+    "matter_id": "M0007",
+    "raw_name": "Intercontinental Exchange, Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0024",
+    "matter_id": "M0008",
+    "raw_name": "Sullivan & Cromwell LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0025",
+    "matter_id": "M0008",
+    "raw_name": "Evercore",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0026",
+    "matter_id": "M0008",
+    "raw_name": "Cigna Group",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0027",
+    "matter_id": "M0009",
+    "raw_name": "Wachtell",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0028",
+    "matter_id": "M0009",
+    "raw_name": "Citi",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0029",
+    "matter_id": "M0009",
+    "raw_name": "ELI LILLY & Co",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0030",
+    "matter_id": "M0010",
+    "raw_name": "Latham & Watkins LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0031",
+    "matter_id": "M0010",
+    "raw_name": "Cravath, Swaine & Moore",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0032",
+    "matter_id": "M0010",
+    "raw_name": "Bank of America",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0033",
+    "matter_id": "M0010",
+    "raw_name": "QUALCOMM INC/DE",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0034",
+    "matter_id": "M0011",
+    "raw_name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0035",
+    "matter_id": "M0011",
+    "raw_name": "Centerview Partners",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0036",
+    "matter_id": "M0011",
+    "raw_name": "S&P Global Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0037",
+    "matter_id": "M0012",
+    "raw_name": "Sullivan & Cromwell",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0038",
+    "matter_id": "M0012",
+    "raw_name": "Kirkland & Ellis",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0039",
+    "matter_id": "M0012",
+    "raw_name": "BofA Securities, Inc.",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0040",
+    "matter_id": "M0012",
+    "raw_name": "GILEAD SCIENCES, INC.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0041",
+    "matter_id": "M0013",
+    "raw_name": "Simpson Thacher & Bartlett",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0042",
+    "matter_id": "M0013",
+    "raw_name": "Cravath, Swaine & Moore LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0043",
+    "matter_id": "M0013",
+    "raw_name": "Morgan Stanley & Co. LLC",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0044",
+    "matter_id": "M0013",
+    "raw_name": "CVS HEALTH Corp",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0045",
+    "matter_id": "M0014",
+    "raw_name": "Gibson, Dunn & Crutcher LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0046",
+    "matter_id": "M0014",
+    "raw_name": "Goldman",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0047",
+    "matter_id": "M0014",
+    "raw_name": "HP INC",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0048",
+    "matter_id": "M0015",
+    "raw_name": "Simpson Thacher",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0049",
+    "matter_id": "M0015",
+    "raw_name": "Skadden, Arps, Slate, Meagher & Flom LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0050",
+    "matter_id": "M0015",
+    "raw_name": "Evercore Inc.",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0051",
+    "matter_id": "M0015",
+    "raw_name": "Aon plc",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0052",
+    "matter_id": "M0016",
+    "raw_name": "Cleary Gottlieb",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0053",
+    "matter_id": "M0016",
+    "raw_name": "J.P. Morgan Securities LLC",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0054",
+    "matter_id": "M0016",
+    "raw_name": "VERTEX PHARMACEUTICALS INC / MA",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0055",
+    "matter_id": "M0017",
+    "raw_name": "Weil, Gotshal & Manges",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0056",
+    "matter_id": "M0017",
+    "raw_name": "Wachtell, Lipton, Rosen & Katz",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0057",
+    "matter_id": "M0017",
+    "raw_name": "Centerview",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0058",
+    "matter_id": "M0017",
+    "raw_name": "MICROSOFT CORP",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0059",
+    "matter_id": "M0018",
+    "raw_name": "Gibson, Dunn & Crutcher",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0060",
+    "matter_id": "M0018",
+    "raw_name": "Citigroup Global Markets Inc.",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0061",
+    "matter_id": "M0018",
+    "raw_name": "Cigna Group",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0062",
+    "matter_id": "M0019",
+    "raw_name": "Cleary",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0063",
+    "matter_id": "M0019",
+    "raw_name": "Latham",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0064",
+    "matter_id": "M0019",
+    "raw_name": "Citigroup",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0065",
+    "matter_id": "M0019",
+    "raw_name": "JOHNSON & JOHNSON",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0066",
+    "matter_id": "M0020",
+    "raw_name": "Skadden, Arps",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0067",
+    "matter_id": "M0020",
+    "raw_name": "Lazard Freres & Co. LLC",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0068",
+    "matter_id": "M0020",
+    "raw_name": "Medtronic plc",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0069",
+    "matter_id": "M0021",
+    "raw_name": "Davis Polk & Wardwell",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0070",
+    "matter_id": "M0021",
+    "raw_name": "Kirkland",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0071",
+    "matter_id": "M0021",
+    "raw_name": "Morgan Stanley",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0072",
+    "matter_id": "M0021",
+    "raw_name": "S&P Global Inc.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0073",
+    "matter_id": "M0022",
+    "raw_name": "Paul Weiss",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0074",
+    "matter_id": "M0022",
+    "raw_name": "Skadden",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0075",
+    "matter_id": "M0022",
+    "raw_name": "JPMorgan",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0076",
+    "matter_id": "M0022",
+    "raw_name": "Medtronic plc",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0077",
+    "matter_id": "M0023",
+    "raw_name": "Gibson Dunn",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0078",
+    "matter_id": "M0023",
+    "raw_name": "S&C",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0079",
+    "matter_id": "M0023",
+    "raw_name": "J.P. Morgan",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0080",
+    "matter_id": "M0023",
+    "raw_name": "PNC FINANCIAL SERVICES GROUP, INC.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0081",
+    "matter_id": "M0024",
+    "raw_name": "Davis Polk & Wardwell LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0082",
+    "matter_id": "M0024",
+    "raw_name": "Wachtell, Lipton",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0083",
+    "matter_id": "M0024",
+    "raw_name": "BofA Securities",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0084",
+    "matter_id": "M0024",
+    "raw_name": "VERTEX PHARMACEUTICALS INC / MA",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0085",
+    "matter_id": "M0025",
+    "raw_name": "Simpson Thacher & Bartlett LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0086",
+    "matter_id": "M0025",
+    "raw_name": "Centerview Partners LLC",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0087",
+    "matter_id": "M0025",
+    "raw_name": "Aon plc",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0088",
+    "matter_id": "M0026",
+    "raw_name": "Paul, Weiss",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0089",
+    "matter_id": "M0026",
+    "raw_name": "Goldman Sachs",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0090",
+    "matter_id": "M0026",
+    "raw_name": "Broadcom Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0091",
+    "matter_id": "M0027",
+    "raw_name": "L&W",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0092",
+    "matter_id": "M0027",
+    "raw_name": "Goldman Sachs & Co. LLC",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0093",
+    "matter_id": "M0027",
+    "raw_name": "AbbVie Inc.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0094",
+    "matter_id": "M0028",
+    "raw_name": "Kirkland & Ellis LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0095",
+    "matter_id": "M0028",
+    "raw_name": "Davis Polk",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0096",
+    "matter_id": "M0028",
+    "raw_name": "Lazard",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0097",
+    "matter_id": "M0028",
+    "raw_name": "GILEAD SCIENCES, INC.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0098",
+    "matter_id": "M0029",
+    "raw_name": "Latham & Watkins",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0099",
+    "matter_id": "M0029",
+    "raw_name": "Evercore",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0100",
+    "matter_id": "M0029",
+    "raw_name": "MICROSOFT CORP",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0101",
+    "matter_id": "M0030",
+    "raw_name": "Cravath",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0102",
+    "matter_id": "M0030",
+    "raw_name": "Citi",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0103",
+    "matter_id": "M0030",
+    "raw_name": "QUALCOMM INC/DE",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0104",
+    "matter_id": "M0031",
+    "raw_name": "K&E",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0105",
+    "matter_id": "M0031",
+    "raw_name": "Bank of America",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0106",
+    "matter_id": "M0031",
+    "raw_name": "BRISTOL MYERS SQUIBB CO",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0107",
+    "matter_id": "M0032",
+    "raw_name": "Weil, Gotshal & Manges LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0108",
+    "matter_id": "M0032",
+    "raw_name": "Centerview Partners",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0109",
+    "matter_id": "M0032",
+    "raw_name": "AbbVie Inc.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0110",
+    "matter_id": "M0033",
+    "raw_name": "Cleary Gottlieb Steen & Hamilton LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0111",
+    "matter_id": "M0033",
+    "raw_name": "Weil",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0112",
+    "matter_id": "M0033",
+    "raw_name": "BofA Securities, Inc.",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0113",
+    "matter_id": "M0033",
+    "raw_name": "ORACLE CORP",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0114",
+    "matter_id": "M0034",
+    "raw_name": "Sullivan & Cromwell LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0115",
+    "matter_id": "M0034",
+    "raw_name": "Wachtell",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0116",
+    "matter_id": "M0034",
+    "raw_name": "Morgan Stanley & Co. LLC",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0117",
+    "matter_id": "M0034",
+    "raw_name": "Broadcom Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0118",
+    "matter_id": "M0035",
+    "raw_name": "Latham & Watkins LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0119",
+    "matter_id": "M0035",
+    "raw_name": "Goldman",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0120",
+    "matter_id": "M0035",
+    "raw_name": "BRISTOL MYERS SQUIBB CO",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0121",
+    "matter_id": "M0036",
+    "raw_name": "Cravath, Swaine & Moore",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0122",
+    "matter_id": "M0036",
+    "raw_name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0123",
+    "matter_id": "M0036",
+    "raw_name": "Evercore Inc.",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0124",
+    "matter_id": "M0036",
+    "raw_name": "TEXAS INSTRUMENTS INC",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0125",
+    "matter_id": "M0037",
+    "raw_name": "Sullivan & Cromwell",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0126",
+    "matter_id": "M0037",
+    "raw_name": "J.P. Morgan Securities LLC",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0127",
+    "matter_id": "M0037",
+    "raw_name": "CISCO SYSTEMS, INC.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0128",
+    "matter_id": "M0038",
+    "raw_name": "Kirkland & Ellis",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0129",
+    "matter_id": "M0038",
+    "raw_name": "Centerview",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0130",
+    "matter_id": "M0038",
+    "raw_name": "AbbVie Inc.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0131",
+    "matter_id": "M0039",
+    "raw_name": "Simpson Thacher & Bartlett",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0132",
+    "matter_id": "M0039",
+    "raw_name": "Citigroup Global Markets Inc.",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0133",
+    "matter_id": "M0039",
+    "raw_name": "ORACLE CORP",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0134",
+    "matter_id": "M0040",
+    "raw_name": "Cravath, Swaine & Moore LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0135",
+    "matter_id": "M0040",
+    "raw_name": "Gibson, Dunn & Crutcher LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0136",
+    "matter_id": "M0040",
+    "raw_name": "Citigroup",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0137",
+    "matter_id": "M0040",
+    "raw_name": "CVS HEALTH Corp",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0138",
+    "matter_id": "M0041",
+    "raw_name": "Simpson Thacher",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0139",
+    "matter_id": "M0041",
+    "raw_name": "Skadden, Arps, Slate, Meagher & Flom LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0140",
+    "matter_id": "M0041",
+    "raw_name": "Lazard Freres & Co. LLC",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0141",
+    "matter_id": "M0041",
+    "raw_name": "ServiceNow, Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0142",
+    "matter_id": "M0042",
+    "raw_name": "Cleary Gottlieb",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0143",
+    "matter_id": "M0042",
+    "raw_name": "Weil, Gotshal & Manges",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0144",
+    "matter_id": "M0042",
+    "raw_name": "Morgan Stanley",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0145",
+    "matter_id": "M0042",
+    "raw_name": "TEXAS INSTRUMENTS INC",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0146",
+    "matter_id": "M0043",
+    "raw_name": "Wachtell, Lipton, Rosen & Katz",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0147",
+    "matter_id": "M0043",
+    "raw_name": "JPMorgan",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0148",
+    "matter_id": "M0043",
+    "raw_name": "AbbVie Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0149",
+    "matter_id": "M0044",
+    "raw_name": "Gibson, Dunn & Crutcher",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0150",
+    "matter_id": "M0044",
+    "raw_name": "J.P. Morgan",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0151",
+    "matter_id": "M0044",
+    "raw_name": "INTUIT INC.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0152",
+    "matter_id": "M0045",
+    "raw_name": "Cleary",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0153",
+    "matter_id": "M0045",
+    "raw_name": "Latham",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0154",
+    "matter_id": "M0045",
+    "raw_name": "BofA Securities",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0155",
+    "matter_id": "M0045",
+    "raw_name": "VERTEX PHARMACEUTICALS INC / MA",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0156",
+    "matter_id": "M0046",
+    "raw_name": "Skadden, Arps",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0157",
+    "matter_id": "M0046",
+    "raw_name": "Centerview Partners LLC",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0158",
+    "matter_id": "M0046",
+    "raw_name": "CVS HEALTH Corp",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0159",
+    "matter_id": "M0047",
+    "raw_name": "Davis Polk & Wardwell",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0160",
+    "matter_id": "M0047",
+    "raw_name": "Kirkland",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0161",
+    "matter_id": "M0047",
+    "raw_name": "Goldman Sachs",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0162",
+    "matter_id": "M0047",
+    "raw_name": "ADVANCED MICRO DEVICES INC",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0163",
+    "matter_id": "M0048",
+    "raw_name": "Paul Weiss",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0164",
+    "matter_id": "M0048",
+    "raw_name": "Goldman Sachs & Co. LLC",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0165",
+    "matter_id": "M0048",
+    "raw_name": "SCHWAB CHARLES CORP",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0166",
+    "matter_id": "M0049",
+    "raw_name": "Skadden",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0167",
+    "matter_id": "M0049",
+    "raw_name": "Lazard",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0168",
+    "matter_id": "M0049",
+    "raw_name": "AMGEN INC",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0169",
+    "matter_id": "M0050",
+    "raw_name": "Gibson Dunn",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0170",
+    "matter_id": "M0050",
+    "raw_name": "Evercore",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0171",
+    "matter_id": "M0050",
+    "raw_name": "CVS HEALTH Corp",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0172",
+    "matter_id": "M0051",
+    "raw_name": "S&C",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0173",
+    "matter_id": "M0051",
+    "raw_name": "Davis Polk & Wardwell LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0174",
+    "matter_id": "M0051",
+    "raw_name": "Citi",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0175",
+    "matter_id": "M0051",
+    "raw_name": "BECTON DICKINSON & CO",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0176",
+    "matter_id": "M0052",
+    "raw_name": "Wachtell, Lipton",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0177",
+    "matter_id": "M0052",
+    "raw_name": "Bank of America",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0178",
+    "matter_id": "M0052",
+    "raw_name": "GILEAD SCIENCES, INC.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0179",
+    "matter_id": "M0053",
+    "raw_name": "Simpson Thacher & Bartlett LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0180",
+    "matter_id": "M0053",
+    "raw_name": "Paul, Weiss",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0181",
+    "matter_id": "M0053",
+    "raw_name": "Centerview Partners",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0182",
+    "matter_id": "M0053",
+    "raw_name": "Broadcom Inc.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0183",
+    "matter_id": "M0054",
+    "raw_name": "L&W",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0184",
+    "matter_id": "M0054",
+    "raw_name": "BofA Securities, Inc.",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0185",
+    "matter_id": "M0054",
+    "raw_name": "ServiceNow, Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0186",
+    "matter_id": "M0055",
+    "raw_name": "Kirkland & Ellis LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0187",
+    "matter_id": "M0055",
+    "raw_name": "Morgan Stanley & Co. LLC",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0188",
+    "matter_id": "M0055",
+    "raw_name": "S&P Global Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0189",
+    "matter_id": "M0056",
+    "raw_name": "Davis Polk",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0190",
+    "matter_id": "M0056",
+    "raw_name": "Latham & Watkins",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0191",
+    "matter_id": "M0056",
+    "raw_name": "Goldman",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0192",
+    "matter_id": "M0056",
+    "raw_name": "JOHNSON & JOHNSON",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0193",
+    "matter_id": "M0057",
+    "raw_name": "Cravath",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0194",
+    "matter_id": "M0057",
+    "raw_name": "K&E",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0195",
+    "matter_id": "M0057",
+    "raw_name": "Evercore Inc.",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0196",
+    "matter_id": "M0057",
+    "raw_name": "Aon plc",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0197",
+    "matter_id": "M0058",
+    "raw_name": "Weil, Gotshal & Manges LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0198",
+    "matter_id": "M0058",
+    "raw_name": "Cleary Gottlieb Steen & Hamilton LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0199",
+    "matter_id": "M0058",
+    "raw_name": "J.P. Morgan Securities LLC",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0200",
+    "matter_id": "M0058",
+    "raw_name": "VERTEX PHARMACEUTICALS INC / MA",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0201",
+    "matter_id": "M0059",
+    "raw_name": "Weil",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0202",
+    "matter_id": "M0059",
+    "raw_name": "Centerview",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0203",
+    "matter_id": "M0059",
+    "raw_name": "Merck & Co., Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0204",
+    "matter_id": "M0060",
+    "raw_name": "Sullivan & Cromwell LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0205",
+    "matter_id": "M0060",
+    "raw_name": "Wachtell",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0206",
+    "matter_id": "M0060",
+    "raw_name": "Citigroup Global Markets Inc.",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0207",
+    "matter_id": "M0060",
+    "raw_name": "Broadcom Inc.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0208",
+    "matter_id": "M0061",
+    "raw_name": "Latham & Watkins LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0209",
+    "matter_id": "M0061",
+    "raw_name": "Citigroup",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0210",
+    "matter_id": "M0061",
+    "raw_name": "Broadcom Inc.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0211",
+    "matter_id": "M0062",
+    "raw_name": "Cravath, Swaine & Moore",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0212",
+    "matter_id": "M0062",
+    "raw_name": "Lazard Freres & Co. LLC",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0213",
+    "matter_id": "M0062",
+    "raw_name": "Medtronic plc",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0214",
+    "matter_id": "M0063",
+    "raw_name": "Paul, Weiss, Rifkind, Wharton & Garrison LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0215",
+    "matter_id": "M0063",
+    "raw_name": "Sullivan & Cromwell",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0216",
+    "matter_id": "M0063",
+    "raw_name": "Morgan Stanley",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0217",
+    "matter_id": "M0063",
+    "raw_name": "BECTON DICKINSON & CO",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0218",
+    "matter_id": "M0064",
+    "raw_name": "Kirkland & Ellis",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0219",
+    "matter_id": "M0064",
+    "raw_name": "Simpson Thacher & Bartlett",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0220",
+    "matter_id": "M0064",
+    "raw_name": "JPMorgan",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0221",
+    "matter_id": "M0064",
+    "raw_name": "CAPITAL ONE FINANCIAL CORP",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0222",
+    "matter_id": "M0065",
+    "raw_name": "Cravath, Swaine & Moore LLP",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0223",
+    "matter_id": "M0065",
+    "raw_name": "J.P. Morgan",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0224",
+    "matter_id": "M0065",
+    "raw_name": "INTUIT INC.",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0225",
+    "matter_id": "M0066",
+    "raw_name": "Gibson, Dunn & Crutcher LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0226",
+    "matter_id": "M0066",
+    "raw_name": "Simpson Thacher",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0227",
+    "matter_id": "M0066",
+    "raw_name": "BofA Securities",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0228",
+    "matter_id": "M0066",
+    "raw_name": "Cigna Group",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0229",
+    "matter_id": "M0067",
+    "raw_name": "Skadden, Arps, Slate, Meagher & Flom LLP",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0230",
+    "matter_id": "M0067",
+    "raw_name": "Centerview Partners LLC",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0231",
+    "matter_id": "M0067",
+    "raw_name": "ORACLE CORP",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0232",
+    "matter_id": "M0068",
+    "raw_name": "Cleary Gottlieb",
+    "party_type": "opposing_counsel",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0233",
+    "matter_id": "M0068",
+    "raw_name": "Goldman Sachs",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0234",
+    "matter_id": "M0068",
+    "raw_name": "Broadcom Inc.",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0235",
+    "matter_id": "M0069",
+    "raw_name": "Weil, Gotshal & Manges",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0236",
+    "matter_id": "M0069",
+    "raw_name": "Wachtell, Lipton, Rosen & Katz",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0237",
+    "matter_id": "M0069",
+    "raw_name": "Goldman Sachs & Co. LLC",
+    "party_type": "advisor",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0238",
+    "matter_id": "M0069",
+    "raw_name": "CVS HEALTH Corp",
+    "party_type": "counterparty",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0239",
+    "matter_id": "M0070",
+    "raw_name": "Gibson, Dunn & Crutcher",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0240",
+    "matter_id": "M0070",
+    "raw_name": "Cleary",
+    "party_type": "opposing_counsel",
+    "side": "sell-side"
+  },
+  {
+    "party_id": "P0241",
+    "matter_id": "M0070",
+    "raw_name": "Lazard",
+    "party_type": "advisor",
+    "side": "buy-side"
+  },
+  {
+    "party_id": "P0242",
+    "matter_id": "M0070",
+    "raw_name": "VERTEX PHARMACEUTICALS INC / MA",
+    "party_type": "counterparty",
+    "side": "sell-side"
+  }
+]

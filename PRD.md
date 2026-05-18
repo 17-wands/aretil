@@ -10,9 +10,11 @@
 > **Disclaimer — proof of concept.** `aretil` is an unaffiliated proof of concept
 > built for product exploration. It is not production software, and is not
 > affiliated with, authorized by, or endorsed by Litera or any other company named
-> in these documents. It uses synthetic data only — no real firm, client, or
-> personal data — and is built entirely from publicly available information, with
-> no confidential or insider knowledge. Competitive references reflect public
+> in these documents. Its demo dataset is a synthetic assembly seeded from public
+> SEC EDGAR filings — the client companies, deals, and counsel are real and
+> public; the law firm, its timekeepers, and deal values are fictional. It is
+> built entirely from publicly available information, with no confidential or
+> insider knowledge. Competitive references reflect public
 > information at a point in time and may be incomplete or out of date. Provided
 > as-is, without warranty.
 
@@ -147,17 +149,20 @@ as a backup surface if live MCP setup fails.
 | X.3 | The SQL a tool runs is inspectable — the system is not a black box. |
 | X.4 | The whole prototype runs locally on a laptop with no external infrastructure beyond the Claude API. |
 
-## 7. Synthetic Dataset Requirements
+## 7. Demo Dataset (EDGAR-seeded)
+
+The demo dataset is a synthetic assembly seeded from real, public SEC EDGAR
+filings — so the data shapes are real, not presumed.
 
 | # | Requirement |
 |---|-------------|
-| D.1 | One fictional mid-market US firm (fake name, plausible office footprint, e.g. NY + Chicago). |
-| D.2 | 50–100 plausible matters — name, client, practice area, deal type, jurisdiction, deal value, year, role, brief description. |
-| D.3 | Supporting `clients`, `timekeepers`, and `parties` records, related to matters. |
-| D.4 | A tag vocabulary — industry codes, deal subtypes, governing law, regulatory dimensions. |
-| D.5 | Data shaped so a lawyer would recognize it as realistic; concentrated in 2–3 practice areas (e.g. healthcare and financial-services M&A) so retrieval has depth. |
-| D.6 | **Deliberate name variants** for at least a few parties/counsel (e.g. "Latham" / "Latham & Watkins" / "L&W") so the entity-resolution demo has something to resolve. |
-| D.7 | Fully synthetic — no real firm, client, or person. |
+| D.1 | One fictional law firm. The firm and its timekeepers are the only invented organisation and people in the dataset. |
+| D.2 | 50–100 matters, each seeded from a real M&A filing in SEC EDGAR — real client company, industry (SIC), jurisdiction, deal type (from filing form), and year. |
+| D.3 | Supporting `clients`, `timekeepers`, and `parties` records related to matters. |
+| D.4 | A tag vocabulary — industry codes (real SIC), governing law (jurisdiction), and deal subtype (filing form). |
+| D.5 | Concentrated in 3 practice areas — healthcare, financial-services, and technology M&A — so retrieval has depth. |
+| D.6 | Counsel and advisor names are real, public firm names in real variant forms (e.g. "Latham & Watkins" / "Latham" / "L&W") so the entity-resolution demo has genuine variants to resolve. |
+| D.7 | Synthetic in assembly, seeded from public EDGAR filings: real companies, deals, and counsel; the firm, timekeepers, and deal values are synthesized. No confidential or non-public data. |
 
 ## 8. Success Criteria
 
@@ -180,7 +185,8 @@ Explicitly **not** in the prototype. These belong to a later "path to production
 - Real source-system connectors (Elite 3E, Aderant, iManage, NetDocuments, Intapp).
 - Adopting Twenty CRM or OpenContracts as the product backbone.
 - Production authentication, multi-tenancy, RBAC, audit logging.
-- Real customer data of any kind.
+- Confidential or non-public client data of any kind (the demo dataset is seeded
+  from public SEC filings).
 - A polished or production-grade UI — the TypeScript web app is intentionally
   minimal and framework-light.
 - Ingesting or parsing real documents (PDFs, deal docs, court filings).
