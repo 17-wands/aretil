@@ -188,7 +188,7 @@ RFP parsing (free text → structured intent) is a Claude reasoning step, not a 
 
 | Component | Choice | Version |
 |---|---|---|
-| Data/ML core language | Python | 3.11+ |
+| Data/ML core language | Python | 3.9+ |
 | App-layer language | TypeScript / Node | Node 20+ |
 | Data substrate | DuckDB | 1.5.x (prototype); 1.4 LTS = production target |
 | Entity resolution | Splink | 4.x |
@@ -219,12 +219,14 @@ aretil/
     web/               # Vite + TypeScript SPA — the frontend
     server/            # thin Node API — opens DuckDB, runs macros + Claude loop
     package.json
+    tsconfig.json
   prompts/
     pitch.md           # pitch-drafting prompt
     bio.md             # bio-drafting prompt
   scripts/
     generate_data.py   # Claude-assisted synthetic data generation
     build_db.py        # load fixtures, embed, run Splink, install macros
+  tests/               # pytest suite for the Python core
   pyproject.toml
   README.md
 ```
