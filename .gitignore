@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+
+# Python — data/ML core
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node / TypeScript — app layer
+node_modules/
+dist/
+coverage/
+playwright-report/
+test-results/
+
+# Generated data & build artifacts
+data/aretil.duckdb
+data/fixtures/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
