@@ -68,8 +68,8 @@ npm install
 The project is built issue by issue. What runs today:
 
 ```bash
-# Create the DuckDB database and apply the schema
-.venv/bin/python scripts/init_db.py
+# Build the DuckDB database — apply the schema and load the demo fixtures
+.venv/bin/python scripts/build_db.py
 
 # Regenerate the demo fixtures from SEC EDGAR (optional — fixtures are committed)
 .venv/bin/python scripts/generate_data.py
