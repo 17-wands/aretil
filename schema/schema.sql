@@ -67,9 +67,9 @@ CREATE TABLE matter_tags (
     PRIMARY KEY (matter_id, tag_id)
 );
 
--- matter_embeddings holds matter-description vectors. Issue #6 finalises the
--- embedding storage (Lance dataset and the chosen model dimension).
+-- matter_embeddings holds matter-text vectors for semantic search
+-- (model2vec potion-base-8M, 256 dimensions).
 CREATE TABLE matter_embeddings (
     matter_id VARCHAR PRIMARY KEY REFERENCES matters (matter_id),
-    embedding FLOAT[]
+    embedding FLOAT[256]
 );

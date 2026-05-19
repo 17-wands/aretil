@@ -15,7 +15,7 @@ FIXTURES_DIR = Path(__file__).resolve().parent.parent / "data" / "fixtures"
 
 @pytest.fixture(scope="module")
 def built_db(tmp_path_factory: pytest.TempPathFactory) -> Path:
-    return build_database(tmp_path_factory.mktemp("db") / "aretil.duckdb")
+    return build_database(tmp_path_factory.mktemp("db") / "aretil.duckdb", embed=False)
 
 
 def test_row_counts_match_fixtures(built_db: Path) -> None:

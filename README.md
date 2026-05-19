@@ -54,7 +54,7 @@ uv python install 3.12
 ```
 
 This installs the data/ML core dependencies (duckdb, splink,
-sentence-transformers, anthropic) and the dev tools (pytest, ruff).
+model2vec, anthropic) and the dev tools (pytest, ruff).
 
 ### TypeScript app layer
 
@@ -68,7 +68,7 @@ npm install
 The project is built issue by issue. What runs today:
 
 ```bash
-# Build the DuckDB database — apply the schema and load the demo fixtures
+# Build the demo database: schema, fixtures, entity resolution, embeddings
 .venv/bin/python scripts/build_db.py
 
 # Regenerate the demo fixtures from SEC EDGAR (optional — fixtures are committed)
