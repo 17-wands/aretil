@@ -229,9 +229,10 @@ aretil/
     pitch.md           # pitch-drafting prompt
     bio.md             # bio-drafting prompt
   scripts/
-    init_db.py         # create a DuckDB database and apply the schema
-    generate_data.py   # Claude-assisted synthetic data generation
-    build_db.py        # load fixtures, embed, run Splink, install macros
+    init_db.py          # create a DuckDB database and apply the schema
+    generate_data.py    # build the EDGAR-seeded demo fixtures
+    resolve_entities.py # Splink entity resolution for party names
+    build_db.py         # build the database: schema, fixtures, entity resolution
   tests/               # pytest suite for the Python core
   pyproject.toml
   README.md
