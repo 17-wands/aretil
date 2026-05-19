@@ -9,7 +9,8 @@ description = "aretil — legal experience-management data layer (Python data/ML
 requires-python = ">=3.10"
 dependencies = [
     "duckdb>=1.5.2,<1.6",
-    "splink",
+    "splink>=4.0.16,<5",
+    "pandas>=2",
     "sentence-transformers",
     "anthropic",
 ]

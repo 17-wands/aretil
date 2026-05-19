@@ -1,8 +1,8 @@
-"""Build the aretil DuckDB database: apply the schema and load the fixtures.
+"""Build the aretil DuckDB database.
 
-This is the load stage of the build pipeline. Later issues extend it with
-entity resolution (Splink, #5), embeddings (#6), and the SQL-macro tool
-layer (#7).
+Applies the schema, loads the committed fixtures, and resolves party name
+variants into canonical entities (Splink). Later issues add embeddings (#6)
+and the SQL-macro tool layer (#7).
 
 Run:  python scripts/build_db.py
 """
@@ -15,6 +15,7 @@ from pathlib import Path
 import duckdb
 
 from init_db import DEFAULT_DB_PATH, STORAGE_VERSION, apply_schema
+from resolve_entities import resolve_parties
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 FIXTURES_DIR = REPO_ROOT / "data" / "fixtures"
@@ -79,6 +80,7 @@ def build_database(db_path: Path = DEFAULT_DB_PATH) -> Path:
             rows = _load_fixture(table)
             _insert_rows(con, table, rows)
             print(f"  loaded {table}: {len(rows)} rows")
+        resolve_parties(con)
     finally:
         con.close()
     return db_path
