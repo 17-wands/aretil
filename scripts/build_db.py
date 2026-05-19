@@ -14,6 +14,7 @@ from pathlib import Path
 
 import duckdb
 
+from embed_matters import embed_matters
 from init_db import DEFAULT_DB_PATH, STORAGE_VERSION, apply_schema
 from resolve_entities import resolve_parties
 
@@ -61,11 +62,13 @@ def _insert_rows(
     con.executemany(sql, params)
 
 
-def build_database(db_path: Path = DEFAULT_DB_PATH) -> Path:
+def build_database(db_path: Path = DEFAULT_DB_PATH, *, embed: bool = True) -> Path:
     """Create a fresh DuckDB database, apply the schema, and load all fixtures.
 
-    Any existing file at ``db_path`` is replaced. Foreign-key constraints are
-    enforced on insert, so a successful build is referentially sound.
+    Also resolves party entities and, when ``embed`` is true, embeds the
+    matters for semantic search. Any existing file at ``db_path`` is replaced;
+    foreign-key constraints are enforced on insert, so a successful build is
+    referentially sound.
     """
     db_path = Path(db_path)
     db_path.parent.mkdir(parents=True, exist_ok=True)
@@ -81,6 +84,8 @@ def build_database(db_path: Path = DEFAULT_DB_PATH) -> Path:
             _insert_rows(con, table, rows)
             print(f"  loaded {table}: {len(rows)} rows")
         resolve_parties(con)
+        if embed:
+            embed_matters(con)
     finally:
         con.close()
     return db_path

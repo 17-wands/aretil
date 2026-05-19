@@ -22,7 +22,7 @@ sketched in §10 and is explicitly out of scope for the build.
 ```
                           ┌─────────────────────────────┐
   scripts/generate_data ─▶ │   Synthetic fixtures        │
-  (Claude-assisted)        │   matters / clients /       │
+  (EDGAR-seeded)           │   matters / clients /       │
                            │   timekeepers / parties     │
                            └──────────────┬──────────────┘
                                           │  scripts/build_db
@@ -30,7 +30,7 @@ sketched in §10 and is explicitly out of scope for the build.
                   ┌──────────────────────────────────────────────┐
                   │            DuckDB substrate                   │
                   │  • relational tables (+ VARIANT fields)        │
-                  │  • Lance dataset — matter-description vectors  │
+                  │  • matter_embeddings — semantic-search vectors │
                   │  • resolved_parties — Splink entity resolution │
                   │  • SQL macros  ◀── the one canonical tool layer│
                   └───────────┬───────────────────────┬──────────┘
@@ -91,14 +91,14 @@ no second implementation of tool logic to keep in sync.
   build time. `search_matters` joins through it so a query phrased with any variant
   matches matters recorded under any other.
 
-### 3.3 Semantic search — Lance
+### 3.3 Semantic search — embeddings
 
-- Matter descriptions are embedded and stored as a **Lance** dataset, queried from
-  within DuckDB via the Lance extension. Vector, structured, and full-text
-  filtering happen in one SQL dialect.
-- Embeddings are produced by a local `sentence-transformers` model (no API
-  dependency at build time). DuckDB's `vss` extension is the fallback if the Lance
-  extension is unavailable.
+- Each matter is embedded into a 256-dimension vector stored in the
+  `matter_embeddings` table. Search is plain SQL — DuckDB's core
+  `array_cosine_similarity` ranks matters against a query vector; at prototype
+  scale no vector index is needed.
+- Embeddings come from **model2vec** (`potion-base-8M`), a pure-numpy static
+  embedding model — no PyTorch and no API dependency at build time.
 
 ### 3.4 Tool layer — SQL macros
 
@@ -149,7 +149,7 @@ Relational core, with `VARIANT` for type-specific matter detail.
 | `party_resolution` | `party_id`→`parties`, `canonical_party_id`→`resolved_parties` |
 | `tags` | `tag_id`, `tag_type` (industry_code / deal_subtype / governing_law / regulatory), `value` |
 | `matter_tags` | `matter_id`→`matters`, `tag_id`→`tags` |
-| `matter_embeddings` | `matter_id`→`matters`, `embedding` (Lance dataset) |
+| `matter_embeddings` | `matter_id`→`matters`, `embedding` (`FLOAT[256]` vector) |
 
 ## 5. MCP Tool Catalog
 
@@ -175,7 +175,7 @@ RFP parsing (free text → structured intent) is a Claude reasoning step, not a 
    deal type, jurisdiction, value band).
 3. Claude calls `assemble_pitch_context` (or `search_matters` +
    `find_relevant_timekeepers` + `get_market_terms` individually).
-4. The macro(s) run against DuckDB — semantic search via Lance, structured
+4. The macro(s) run against DuckDB — semantic search over embeddings, structured
    filters, party joins through `party_resolution`.
 5. Claude drafts the pitch from the returned context: relevant-matter list,
    highlighted timekeepers, 2–3 paragraphs of pitch language. Output: markdown.
@@ -197,8 +197,8 @@ RFP parsing (free text → structured intent) is a Claude reasoning step, not a 
 | App-layer language | TypeScript / Node | Node 20+ |
 | Data substrate | DuckDB | 1.5.x (prototype); 1.4 LTS = production target |
 | Entity resolution | Splink | 4.x |
-| Vector search | DuckDB Lance extension (`vss` extension as fallback) | current |
-| Embeddings | `sentence-transformers` (local) | current |
+| Vector search | DuckDB core `array_cosine_similarity` | built-in |
+| Embeddings | model2vec (`potion-base-8M`, local) | current |
 | AI layer | `anthropic` SDK (Python core + Node app) — `claude-opus-4-7`, `claude-sonnet-4-6` | current |
 | MCP | DuckDB MCP extension | current |
 | Web frontend | Vite + TypeScript SPA | current |
@@ -232,7 +232,8 @@ aretil/
     init_db.py          # create a DuckDB database and apply the schema
     generate_data.py    # build the EDGAR-seeded demo fixtures
     resolve_entities.py # Splink entity resolution for party names
-    build_db.py         # build the database: schema, fixtures, entity resolution
+    embed_matters.py    # model2vec embeddings and semantic search
+    build_db.py         # build the database: schema, fixtures, resolution, embeddings
   tests/               # pytest suite for the Python core
   pyproject.toml
   README.md

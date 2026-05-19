@@ -14,7 +14,7 @@ LATHAM_VARIANTS = ("Latham & Watkins LLP", "Latham & Watkins", "Latham", "L&W")
 
 @pytest.fixture(scope="module")
 def built_db(tmp_path_factory: pytest.TempPathFactory) -> Path:
-    return build_database(tmp_path_factory.mktemp("db") / "aretil.duckdb")
+    return build_database(tmp_path_factory.mktemp("db") / "aretil.duckdb", embed=False)
 
 
 def test_every_party_is_resolved(built_db: Path) -> None:
