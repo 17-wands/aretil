@@ -233,7 +233,8 @@ aretil/
     generate_data.py    # build the EDGAR-seeded demo fixtures
     resolve_entities.py # Splink entity resolution for party names
     embed_matters.py    # model2vec embeddings and semantic search
-    build_db.py         # build the database: schema, fixtures, resolution, embeddings
+    install_macros.py   # install the SQL-macro tool layer
+    build_db.py         # build the database: schema, fixtures, resolution, embeddings, macros
   tests/               # pytest suite for the Python core
   pyproject.toml
   README.md

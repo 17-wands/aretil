@@ -57,11 +57,16 @@ def embed_matters(con: duckdb.DuckDBPyConnection) -> None:
     print(f"  embedded {len(rows)} matters ({EMBED_DIM}-dim)")
 
 
+def embed_query(text: str) -> list[float]:
+    """Embed a single query string for use in macros that take a vector arg."""
+    return _model().encode([text])[0].tolist()
+
+
 def semantic_search(
     con: duckdb.DuckDBPyConnection, query: str, limit: int = 10,
 ) -> list[tuple[str, str, float]]:
     """Return (matter_id, name, similarity) for the matters closest to query."""
-    query_vector = _model().encode([query])[0].tolist()
+    query_vector = embed_query(query)
     return con.execute(
         "SELECT m.matter_id, m.name, "
         f"array_cosine_similarity(e.embedding, ?::FLOAT[{EMBED_DIM}]) AS similarity "
