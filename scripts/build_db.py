@@ -16,6 +16,7 @@ import duckdb
 
 from embed_matters import embed_matters
 from init_db import DEFAULT_DB_PATH, STORAGE_VERSION, apply_schema
+from install_macros import install_macros
 from resolve_entities import resolve_parties
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -65,8 +66,9 @@ def _insert_rows(
 def build_database(db_path: Path = DEFAULT_DB_PATH, *, embed: bool = True) -> Path:
     """Create a fresh DuckDB database, apply the schema, and load all fixtures.
 
-    Also resolves party entities and, when ``embed`` is true, embeds the
-    matters for semantic search. Any existing file at ``db_path`` is replaced;
+    Also resolves party entities, installs the SQL macros that form the tool
+    layer, and (when ``embed`` is true) embeds matters for semantic search.
+    Any existing file at ``db_path`` is replaced;
     foreign-key constraints are enforced on insert, so a successful build is
     referentially sound.
     """
@@ -86,6 +88,7 @@ def build_database(db_path: Path = DEFAULT_DB_PATH, *, embed: bool = True) -> Pa
         resolve_parties(con)
         if embed:
             embed_matters(con)
+        install_macros(con)
     finally:
         con.close()
     return db_path
