@@ -104,3 +104,111 @@ CREATE OR REPLACE MACRO get_timekeeper_history(timekeeper_name) AS TABLE (
     WHERE t.name = timekeeper_name
     ORDER BY m.year DESC, m.matter_id
 );
+
+-- get_client_history: matters of the named client plus matters of any
+-- subsidiary (a client whose parent_client_id points at the named client).
+-- via_subsidiary distinguishes the two so the caller can group them.
+CREATE OR REPLACE MACRO get_client_history(client_name) AS TABLE (
+    WITH target AS (
+        SELECT client_id FROM clients WHERE name = client_name LIMIT 1
+    ),
+    in_scope AS (
+        SELECT client_id, FALSE AS via_subsidiary FROM target
+        UNION ALL
+        SELECT c.client_id, TRUE
+        FROM clients c
+        WHERE c.parent_client_id IN (SELECT client_id FROM target)
+    )
+    SELECT
+        m.matter_id,
+        m.name AS matter_name,
+        c.client_id,
+        c.name AS client_name,
+        s.via_subsidiary,
+        m.practice_area,
+        m.deal_type,
+        m.jurisdiction,
+        m.deal_value,
+        m.year,
+        m.firm_role,
+        m.description
+    FROM matters m
+    JOIN clients c USING (client_id)
+    JOIN in_scope s USING (client_id)
+    ORDER BY m.year DESC, m.matter_id
+);
+
+-- get_market_terms: aggregate "what's market" stats over comparable matters
+-- for a given deal type, optionally narrowed by practice area or jurisdiction.
+CREATE OR REPLACE MACRO get_market_terms(
+    deal_type,
+    practice_area := NULL,
+    jurisdiction := NULL
+) AS TABLE (
+    SELECT
+        deal_type AS deal_type,
+        count(*) AS matter_count,
+        min(m.year) AS earliest_year,
+        max(m.year) AS latest_year,
+        min(m.deal_value) AS min_value,
+        approx_quantile(m.deal_value, 0.25) AS p25_value,
+        median(m.deal_value) AS median_value,
+        approx_quantile(m.deal_value, 0.75) AS p75_value,
+        max(m.deal_value) AS max_value,
+        avg(m.deal_value) AS mean_value
+    FROM matters m
+    WHERE m.deal_type = deal_type
+      AND (practice_area IS NULL OR m.practice_area = practice_area)
+      AND (jurisdiction IS NULL OR m.jurisdiction = jurisdiction)
+);
+
+-- assemble_pitch_context: one bundle for pitch drafting — top matters by
+-- semantic similarity, top relevant timekeepers, and market terms for the
+-- deal type (if one is supplied). Returns a single row with three nested
+-- columns so the caller can pull everything in one query.
+CREATE OR REPLACE MACRO assemble_pitch_context(
+    query_embedding,
+    q_practice_area := NULL,
+    q_industry := NULL,
+    q_deal_type := NULL,
+    q_jurisdiction := NULL,
+    q_min_value := NULL,
+    q_max_value := NULL,
+    matter_limit := 5,
+    timekeeper_limit := 5
+) AS TABLE (
+    SELECT
+        (SELECT list(struct_pack(
+                matter_id, name, client_name, practice_area, deal_type,
+                jurisdiction, deal_value, year, similarity
+            ) ORDER BY similarity DESC)
+         FROM search_matters(
+            query_embedding,
+            practice_area := q_practice_area,
+            industry := q_industry,
+            deal_type := q_deal_type,
+            jurisdiction := q_jurisdiction,
+            min_value := q_min_value,
+            max_value := q_max_value,
+            result_limit := matter_limit
+         )) AS matters,
+        (SELECT list(struct_pack(
+                timekeeper_id, name, title, practice_group,
+                matter_count, top_relevance, avg_relevance
+            ) ORDER BY top_relevance DESC)
+         FROM find_relevant_timekeepers(
+            query_embedding,
+            result_limit := timekeeper_limit
+         )) AS timekeepers,
+        CASE WHEN q_deal_type IS NOT NULL THEN (
+            SELECT struct_pack(
+                matter_count, median_value, mean_value,
+                p25_value, p75_value, earliest_year, latest_year
+            )
+            FROM get_market_terms(
+                q_deal_type,
+                practice_area := q_practice_area,
+                jurisdiction := q_jurisdiction
+            )
+        ) ELSE NULL END AS market_terms
+);
