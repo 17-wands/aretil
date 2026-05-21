@@ -166,7 +166,7 @@ workflow:
 
     - id: open-pr
       name: Open Pull Request
-      description: Open a PR from the feature branch summarizing what changed, why, tests run, docs updated, and known risks or follow-ups.
+      description: Open a PR from the feature branch summarizing what changed, why, tests run, docs updated, and known risks or follow-up.
       inputs:
         - "Code changes"
         - "Updated tests"
@@ -183,6 +183,28 @@ workflow:
       actor: either
       enforcement: required
       notes: "Link the issue. Add screenshots for UI changes. The PR body is the change summary."
+
+    - id: post-commit-handoff
+      name: Write Post-Commit Handoff and Compact
+      description: After the PR is open, overwrite HANDOFF.md at the repo root with the current state (branch, open PR number, what landed, what's next, resume commands), then run /compact to free agent context while the PR is in review.
+      inputs:
+        - "Pull request"
+      outputs:
+        - "HANDOFF.md (post-commit)"
+        - "Compacted session"
+      ai:
+        - name: Claude
+          model: claude-opus-4-7
+          skills: [humanizer]
+          harness: claude-code
+      tools:
+        - name: Claude Code
+          type: ide
+          required: true
+          alternatives: []
+      actor: agent
+      enforcement: recommended
+      notes: "HANDOFF.md is transient — overwrite freely. Skip /compact only if the session is already short."
 
     - id: review-merge
       name: Review and Merge
@@ -216,4 +238,26 @@ workflow:
       actor: either
       enforcement: required
       notes: "Run git checkout main and git pull --ff-only."
+
+    - id: post-merge-handoff
+      name: Clear Handoff and Compact
+      description: After the PR is merged and main is fast-forwarded, delete the transient HANDOFF.md (it described the now-merged work) and run /compact so the next issue starts with a clean context.
+      inputs:
+        - "Updated local main"
+      outputs:
+        - "Cleared HANDOFF.md"
+        - "Compacted session"
+      ai:
+        - name: Claude
+          model: claude-opus-4-7
+          skills: []
+          harness: claude-code
+      tools:
+        - name: Claude Code
+          type: ide
+          required: true
+          alternatives: []
+      actor: agent
+      enforcement: recommended
+      notes: "Only delete HANDOFF.md when its contents are obsolete — i.e. the PR it described has merged."
 ```
