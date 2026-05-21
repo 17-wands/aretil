@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "aretil": {
+      "command": "uv",
+      "args": ["run", "python", "start_mcp_server.py"],
+      "cwd": "/Users/YOUR_USERNAME/Projects/aretil"
+    }
+  }
+}
+
+
+

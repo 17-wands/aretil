@@ -65,7 +65,7 @@ npm install
 
 ## Usage
 
-The project is built issue by issue. What runs today:
+### Build the demo database
 
 ```bash
 # Build the demo database: schema, fixtures, entity resolution, embeddings
@@ -75,7 +75,26 @@ The project is built issue by issue. What runs today:
 .venv/bin/python scripts/generate_data.py
 ```
 
-The MCP server and the web app arrive in later issues.
+### Connect to Claude Desktop (primary demo surface)
+
+1. Ensure the database is built: `python scripts/build_db.py`
+2. Copy `mcp/mcp_config.json` to your Claude Desktop config directory:
+   - **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+   - **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
+   - **Linux:** `~/.config/Claude/claude_desktop_config.json`
+3. In the JSON, update the `cwd` path to your aretil project directory:
+   ```json
+   "cwd": "/Users/YOUR_USERNAME/Projects/aretil"
+   ```
+4. Restart Claude Desktop. The `aretil` MCP server will connect and expose six tools:
+   - `search_matters` — semantic search over matter descriptions
+   - `find_relevant_timekeepers` — find timekeepers by matter or text query
+   - `get_client_history` — all matters for a client (including subsidiaries)
+   - `get_market_terms` — aggregate statistics by deal type
+   - `get_timekeeper_history` — a timekeeper's matter history
+   - `assemble_pitch_context` — one-call pitch data (matters + timekeepers + terms)
+
+The web app arrives in later issues.
 
 ## Checks
 
