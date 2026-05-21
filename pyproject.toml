@@ -13,6 +13,7 @@ dependencies = [
     "pandas>=2",
     "model2vec>=0.8,<1",
     "anthropic",
+    "mcp>=0.9",
 ]
 
 [project.optional-dependencies]
