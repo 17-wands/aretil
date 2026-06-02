@@ -1,0 +1,404 @@
+/* Design system tokens from DESIGN.md §15 */
+:root {
+  --ds-blackout: #050505;
+  --ds-carbon: #111111;
+  --ds-graphite: #1B1C1D;
+  --ds-steel: #3C4147;
+  --ds-gunmetal: #687078;
+  --ds-bone: #E6E0D2;
+  --ds-white: #FFFFFF;
+
+  --ds-sand: #B9A98B;
+  --ds-khaki: #8F8064;
+  --ds-olive-black: #1F241E;
+  --ds-dust: #D0C7B8;
+
+  --ds-signal-red: #FF3B30;
+  --ds-warning-amber: #FFB020;
+  --ds-target-green: #6EE778;
+  --ds-command-blue: #4DA3FF;
+  --ds-infra-violet: #8B5CF6;
+
+  --ds-radius-sm: 4px;
+  --ds-radius-md: 8px;
+  --ds-radius-lg: 12px;
+
+  --ds-focus: 0 0 0 2px rgba(255, 176, 32, 0.36);
+  --ds-shadow-hard: 0 20px 70px rgba(0, 0, 0, 0.55);
+
+  /* Typography scale */
+  --ds-font-sans: Neue Haas Grotesk, Inter, Söhne, Helvetica Neue, Arial,
+    sans-serif;
+  --ds-font-mono: IBM Plex Mono, JetBrains Mono, SF Mono, Roboto Mono, monospace;
+
+  --ds-font-size-display-xl: 84px;
+  --ds-font-size-display-l: 64px;
+  --ds-font-size-h1: 48px;
+  --ds-font-size-h2: 36px;
+  --ds-font-size-h3: 24px;
+  --ds-font-size-body-l: 18px;
+  --ds-font-size-body: 15px;
+  --ds-font-size-small: 13px;
+  --ds-font-size-label: 11px;
+  --ds-font-size-data: 12px;
+
+  /* Spacing scale */
+  --ds-spacing-4: 4px;
+  --ds-spacing-8: 8px;
+  --ds-spacing-12: 12px;
+  --ds-spacing-16: 16px;
+  --ds-spacing-24: 24px;
+  --ds-spacing-40: 40px;
+  --ds-spacing-64: 64px;
+}
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--ds-blackout);
+  color: var(--ds-bone);
+  font-family: var(--ds-font-sans);
+  font-size: var(--ds-font-size-body);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography */
+h1 {
+  font-size: var(--ds-font-size-h1);
+  line-height: 1.125;
+  font-weight: 700;
+  color: var(--ds-white);
+  margin-bottom: var(--ds-spacing-24);
+}
+
+h2 {
+  font-size: var(--ds-font-size-h2);
+  line-height: 1.167;
+  font-weight: 700;
+  color: var(--ds-white);
+  margin-bottom: var(--ds-spacing-16);
+}
+
+h3 {
+  font-size: var(--ds-font-size-h3);
+  line-height: 1.25;
+  font-weight: 650;
+  color: var(--ds-white);
+  margin-bottom: var(--ds-spacing-16);
+}
+
+p {
+  margin-bottom: var(--ds-spacing-16);
+}
+
+code {
+  font-family: var(--ds-font-mono);
+  font-size: var(--ds-font-size-data);
+  background-color: var(--ds-graphite);
+  color: var(--ds-bone);
+  padding: var(--ds-spacing-4) var(--ds-spacing-8);
+  border-radius: var(--ds-radius-sm);
+}
+
+pre {
+  background-color: var(--ds-graphite);
+  color: var(--ds-bone);
+  padding: var(--ds-spacing-16);
+  border-radius: var(--ds-radius-md);
+  overflow-x: auto;
+  margin-bottom: var(--ds-spacing-16);
+  font-family: var(--ds-font-mono);
+  font-size: var(--ds-font-size-data);
+}
+
+/* Buttons */
+button {
+  font-family: var(--ds-font-sans);
+  font-size: var(--ds-font-size-body);
+  border: none;
+  border-radius: var(--ds-radius-sm);
+  padding: var(--ds-spacing-12) var(--ds-spacing-16);
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 90ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  background-color: var(--ds-signal-red);
+  color: var(--ds-white);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: #ff5245;
+}
+
+.btn-primary:focus {
+  outline: none;
+  box-shadow: var(--ds-focus);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--ds-bone);
+  border: 1px solid var(--ds-steel);
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background-color: rgba(230, 224, 210, 0.08);
+}
+
+.btn-secondary:focus {
+  outline: none;
+  box-shadow: var(--ds-focus);
+}
+
+/* Form elements */
+input,
+textarea {
+  font-family: var(--ds-font-sans);
+  font-size: var(--ds-font-size-body);
+  background-color: var(--ds-blackout);
+  color: var(--ds-bone);
+  border: 1px solid var(--ds-steel);
+  border-radius: var(--ds-radius-sm);
+  padding: var(--ds-spacing-12) var(--ds-spacing-16);
+  transition: all 90ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--ds-gunmetal);
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: var(--ds-focus);
+  border-color: var(--ds-warning-amber);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+  font-family: var(--ds-font-sans);
+}
+
+label {
+  display: block;
+  font-size: var(--ds-font-size-small);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ds-gunmetal);
+  margin-bottom: var(--ds-spacing-8);
+}
+
+/* Layout: main app container */
+.app-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: var(--ds-spacing-40);
+  flex: 1;
+}
+
+/* Layout: split view for RFP input and pitch display */
+.app-split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--ds-spacing-40);
+  margin-bottom: var(--ds-spacing-40);
+}
+
+.app-split-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-split-panel h2 {
+  margin-bottom: var(--ds-spacing-24);
+}
+
+/* Card styling */
+.card {
+  background-color: var(--ds-carbon);
+  border: 1px solid rgba(230, 224, 210, 0.14);
+  border-radius: var(--ds-radius-md);
+  padding: var(--ds-spacing-24);
+}
+
+.card-header {
+  font-size: var(--ds-font-size-small);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ds-gunmetal);
+  margin-bottom: var(--ds-spacing-16);
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-footer {
+  margin-top: var(--ds-spacing-16);
+  padding-top: var(--ds-spacing-16);
+  border-top: 1px solid rgba(230, 224, 210, 0.14);
+  font-size: var(--ds-font-size-small);
+  color: var(--ds-gunmetal);
+}
+
+/* Status indicators */
+.status-badge {
+  display: inline-block;
+  padding: var(--ds-spacing-4) var(--ds-spacing-12);
+  border-radius: var(--ds-radius-sm);
+  font-size: var(--ds-font-size-small);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.status-pending {
+  background-color: rgba(255, 176, 32, 0.2);
+  color: var(--ds-warning-amber);
+}
+
+.status-success {
+  background-color: rgba(110, 238, 120, 0.2);
+  color: var(--ds-target-green);
+}
+
+.status-error {
+  background-color: rgba(255, 59, 48, 0.2);
+  color: var(--ds-signal-red);
+}
+
+/* Loading spinner */
+.spinner {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--ds-steel);
+  border-top-color: var(--ds-warning-amber);
+  border-radius: 50%;
+  animation: spin 600ms linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Markdown content */
+.markdown {
+  line-height: 1.8;
+}
+
+.markdown h2 {
+  margin-top: var(--ds-spacing-24);
+  font-size: var(--ds-font-size-h3);
+}
+
+.markdown h3 {
+  margin-top: var(--ds-spacing-16);
+  font-size: var(--ds-font-size-body-l);
+}
+
+.markdown p {
+  margin-bottom: var(--ds-spacing-16);
+}
+
+.markdown ul,
+.markdown ol {
+  margin-left: var(--ds-spacing-24);
+  margin-bottom: var(--ds-spacing-16);
+}
+
+.markdown li {
+  margin-bottom: var(--ds-spacing-8);
+}
+
+.markdown code {
+  background-color: var(--ds-graphite);
+  color: var(--ds-sand);
+}
+
+.markdown pre {
+  border-left: 3px solid var(--ds-warning-amber);
+}
+
+.markdown blockquote {
+  border-left: 3px solid var(--ds-steel);
+  padding-left: var(--ds-spacing-16);
+  margin-left: 0;
+  margin-bottom: var(--ds-spacing-16);
+  color: var(--ds-gunmetal);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .app-split {
+    grid-template-columns: 1fr;
+    gap: var(--ds-spacing-24);
+  }
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: var(--ds-spacing-24);
+  }
+
+  h1 {
+    font-size: var(--ds-font-size-h2);
+  }
+
+  .card {
+    padding: var(--ds-spacing-16);
+  }
+}
+
+/* Error message */
+.error {
+  background-color: rgba(255, 59, 48, 0.1);
+  border: 1px solid var(--ds-signal-red);
+  color: var(--ds-signal-red);
+  padding: var(--ds-spacing-16);
+  border-radius: var(--ds-radius-md);
+  margin-bottom: var(--ds-spacing-16);
+}
+
+/* Success message */
+.success {
+  background-color: rgba(110, 238, 120, 0.1);
+  border: 1px solid var(--ds-target-green);
+  color: var(--ds-target-green);
+  padding: var(--ds-spacing-16);
+  border-radius: var(--ds-radius-md);
+  margin-bottom: var(--ds-spacing-16);
+}
