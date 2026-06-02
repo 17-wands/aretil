@@ -5,12 +5,7 @@
 import "./styles.css";
 import { initializeApp } from "./app.js";
 
-// Initialize the app when the DOM is ready
-document.addEventListener("DOMContentLoaded", () => {
-  initializeApp();
-});
-
-// Fallback in case DOM is already ready
+// Initialize app when DOM is ready or immediately if already loaded
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", initializeApp);
 } else {

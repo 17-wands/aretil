@@ -3,13 +3,13 @@
  * Provides typed wrappers around HTTP endpoints.
  */
 
-export interface PitchResponse {
+export type PitchResponse = {
   pitch: string;
-}
+};
 
-export interface HealthResponse {
+export type HealthResponse = {
   status: string;
-}
+};
 
 const API_BASE = "/api";
 

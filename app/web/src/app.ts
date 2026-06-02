@@ -5,6 +5,17 @@
 import { requestPitch } from "./api.js";
 
 /**
+ * Safely retrieve and validate a DOM element with type checking.
+ */
+function getElementOrThrow<T extends HTMLElement>(id: string): T {
+  const element = document.getElementById(id);
+  if (!element) {
+    throw new Error(`Required element not found: id="${id}"`);
+  }
+  return element as T;
+}
+
+/**
  * Initialize and render the app.
  */
 export function initializeApp(): void {
@@ -62,12 +73,12 @@ export function initializeApp(): void {
     </div>
   `;
 
-  // Wire up event handlers
-  const rfpInput = document.getElementById("rfp-input") as HTMLTextAreaElement;
-  const submitBtn = document.getElementById("submit-btn") as HTMLButtonElement;
-  const pitchContent = document.getElementById("pitch-content") as HTMLDivElement;
-  const statusMessage = document.getElementById("status-message") as HTMLDivElement;
-  const copyBtn = document.getElementById("copy-btn") as HTMLButtonElement;
+  // Wire up event handlers with validated DOM retrieval
+  const rfpInput = getElementOrThrow<HTMLTextAreaElement>("rfp-input");
+  const submitBtn = getElementOrThrow<HTMLButtonElement>("submit-btn");
+  const pitchContent = getElementOrThrow<HTMLDivElement>("pitch-content");
+  const statusMessage = getElementOrThrow<HTMLDivElement>("status-message");
+  const copyBtn = getElementOrThrow<HTMLButtonElement>("copy-btn");
 
   let currentPitch = "";
 
@@ -131,40 +142,32 @@ export function initializeApp(): void {
 
 /**
  * Simple markdown-to-HTML converter.
- * Handles basic markdown: headings, paragraphs, lists, bold, italic, code.
+ * Handles basic markdown: headings, paragraphs, bold, italic, code.
+ * Note: List support removed due to regex edge cases; consider marked.js for production.
  */
 function renderMarkdown(markdown: string): string {
-  let html = markdown
-    // Escape HTML entities first
+  // Escape HTML entities first (must precede pattern replacements)
+  const escaped = markdown
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    // Headings
+    .replace(/>/g, "&gt;");
+
+  // Convert markdown patterns to HTML
+  const withMarkdown = escaped
     .replace(/^### (.*?)$/gm, "<h3>$1</h3>")
     .replace(/^## (.*?)$/gm, "<h2>$1</h2>")
     .replace(/^# (.*?)$/gm, "<h1>$1</h1>")
-    // Code blocks
     .replace(/```([\s\S]*?)```/g, "<pre><code>$1</code></pre>")
-    // Inline code
     .replace(/`([^`]+)`/g, "<code>$1</code>")
-    // Bold
     .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
     .replace(/__(.+?)__/g, "<strong>$1</strong>")
-    // Italic
     .replace(/\*(.*?)\*/g, "<em>$1</em>")
-    .replace(/_(.+?)_/g, "<em>$1</em>")
-    // Unordered lists
-    .replace(/^\* (.*?)$/gm, "<li>$1</li>")
-    .replace(/(<li>.*<\/li>)/s, "<ul>$1</ul>")
-    // Ordered lists
-    .replace(/^\d+\. (.*?)$/gm, "<li>$1</li>")
-    .replace(/(<li>.*<\/li>)/s, "<ol>$1</ol>")
-    // Line breaks to paragraphs
+    .replace(/_(.+?)_/g, "<em>$1</em>");
+
+  // Wrap paragraphs (skip already-wrapped content)
+  const html = withMarkdown
     .split("\n\n")
-    .map((para) => {
-      if (para.match(/^<[hou]/)) return para;
-      return `<p>${para.replace(/\n/g, "<br>")}</p>`;
-    })
+    .map((para) => para.match(/^<[hou]/) ? para : `<p>${para.replace(/\n/g, "<br>")}</p>`)
     .join("\n");
 
   return html;
