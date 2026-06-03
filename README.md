@@ -75,17 +75,23 @@ npm install
 .venv/bin/python scripts/generate_data.py
 ```
 
-### Connect to Claude Desktop (primary demo surface)
+### Demo Surface 1: Claude Desktop with MCP (Primary)
 
-1. Ensure the database is built: `python scripts/build_db.py`
+1. Ensure the database is built:
+   ```bash
+   .venv/bin/python scripts/build_db.py
+   ```
+
 2. Copy `mcp/mcp_config.json` to your Claude Desktop config directory:
    - **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
    - **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
    - **Linux:** `~/.config/Claude/claude_desktop_config.json`
+
 3. In the JSON, update the `cwd` path to your aretil project directory:
    ```json
    "cwd": "/Users/YOUR_USERNAME/Projects/aretil"
    ```
+
 4. Restart Claude Desktop. The `aretil` MCP server will connect and expose six tools:
    - `search_matters` — semantic search over matter descriptions
    - `find_relevant_timekeepers` — find timekeepers by matter or text query
@@ -94,7 +100,49 @@ npm install
    - `get_timekeeper_history` — a timekeeper's matter history
    - `assemble_pitch_context` — one-call pitch data (matters + timekeepers + terms)
 
-The web app arrives in later issues.
+5. Paste an RFP and ask Claude to draft a pitch.
+
+### Demo Surface 2: TypeScript Web App (Backup)
+
+**Terminal 1: Start the Node API server**
+```bash
+cd app
+npm install  # if not done already
+npm run build
+node dist/server/src/index.js
+```
+The API server runs on `http://localhost:3001`.
+
+**Terminal 2: Start the Vite dev server**
+```bash
+cd app
+npm run dev
+```
+The web app runs on `http://localhost:5173`.
+
+**In your browser:**
+1. Open `http://localhost:5173`
+2. Paste an RFP (sample below) into the "RFP" panel
+3. Click "Generate pitch"
+4. View the drafted pitch in the "Pitch" panel
+5. Click "Copy to clipboard" to copy the pitch
+
+**Sample RFP:**
+```
+We are seeking a law firm to advise on a healthcare M&A transaction.
+The target is a mid-sized medical devices company specializing in
+surgical instruments. The deal is expected to close in Q4 2026.
+We need a firm with significant healthcare M&A experience, regulatory
+expertise, and a strong track record representing targets in similar
+transactions. Timeline is tight — response due by EOW.
+```
+
+### Demo Workflows
+
+See [DEMO.md](DEMO.md) for detailed walkthroughs of:
+- RFP-to-Pitch (main workflow)
+- Timekeeper Bio/CV (secondary workflow)
+- Entity-Resolution "wow" moment (data layer validation)
 
 ## Checks
 
